@@ -1,0 +1,115 @@
+{
+  "General": {
+    "QuizName": "<h3>Knowledge Check</h3>",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": false,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "5",
+    "preQuizText": "Now, let’s test your knowledge! In the following activity, choose if the characteristic applies to Products or Services.",
+    "preQuizMedia": "none",
+    "postQuizText": "<strong>Congratulations! You have completed the knowledge check. Go to the next page to continue.</strong>",
+    "postQuizMedia": "none"
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Kept in inventory",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Product",
+          "feedBack": "If it is kept in inventory, it is a product.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Service",
+          "feedBack": "If it is kept in inventory, it is a product.",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Intangible",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Product",
+          "feedBack": "If it is intangible, it is a service.",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Service",
+          "feedBack": "If it is intangible, it is a service.",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Hair Styling",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Product",
+          "feedBack": "Hair styling is a service.",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Service",
+          "feedBack": "Hair styling is a service.",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Each item is identical",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Product",
+          "feedBack": "There are multiple identical items, they are products.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Service",
+          "feedBack": "There are multiple identical items, they are products.",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Cafeteria Lunch",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Product",
+          "feedBack": "A cafeteria lunch is a product.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Service",
+          "feedBack": "A cafeteria lunch is a product.",
+          "scoreValue": 0
+        }
+      ]
+    }
+  ]
+}

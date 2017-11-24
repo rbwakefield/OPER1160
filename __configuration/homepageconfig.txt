@@ -1,0 +1,4 @@
+{
+  "DisplayTitle": "OPER1160 Supply Chain & Operations Management",
+  "AccentHexCode": "00AF94"
+}

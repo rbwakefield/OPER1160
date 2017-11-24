@@ -1,0 +1,55 @@
+{
+    "QuizName" : "Activity: Matching Media",
+    "ActivityType" : "sort",
+    "FeedbackType" : "continuous",
+    "CorrectFeedback" : true,
+    "WrongFeedback" : true,
+    "HighlightEffect" : true,
+    "QuestionColums" : "1",
+    "Randomize" : true,
+    "PreQuizText" : "none",
+    "PreQuizMedia": "none",
+    "IncludePostPage" : true,
+    "PostQuizText" : "Way to go, You have ordered all the statements into the correct order!",
+    "PostQuizMedia": "none",
+    "AnswerNodes": [
+        {
+            "key": "cat_01",
+             "title": "Labour",
+             "color": "#9b27ae"
+        },
+        {
+            "key": "cat_02",
+            "title": "Capital",
+            "color": "#d61b5f"
+        },
+        {
+            "key": "cat_03",
+            "title": "Management",
+            "color": "#1876d1"
+        }
+    ],
+    "QuestionNodes": [
+        {
+            "question" : "We will see increases in productivity if the health and quality of labour is improved",
+            "answer" : "cat_01",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "The right tools can improve productivity more than just labour",
+            "answer" : "cat_02",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "Management is responsible for ensuring that labour and capital are effectively used to increase production thus can make the largest improvements",
+            "answer" : "cat_03",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        }
+    ]
+}

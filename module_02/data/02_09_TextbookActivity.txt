@@ -1,0 +1,92 @@
+{
+  "Questions": [
+    {
+      "Title": "Discussion Question 1",
+      "Text": "<p>Why should one study operations management?</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>The text suggests four reasons to study OM. We want to understand (1) how people organize themselves for productive enterprise, (2) how goods and services are produced, (3) what operations managers do, and (4) this costly part of our economy and most enterprises.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Discussion Question 2",
+      "Text": "<p>What are the three basic functions of a firm?</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>The basic functions of a firm are marketing, accounting/finance, and operations. An interesting class discussion: “Do all firms/organizations (private, government, not-for-profit) perform these three functions?” The authors’ hypothesis is yes, they do.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Discussion Question 3",
+      "Text": "<p>Name the 10 decision areas of operations management.</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>The 10 decisions of operations management are product design, quality, process, location, layout, human resources, supply-chain management, inventory, scheduling (aggregate and short term), maintenance. We find this structure an excellent way to help students organize and learn the material.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Discussion Question 4",
+      "Text": "<p>Name four areas that are significant to improving labour productivity.</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>Four areas that are important to improving labour productivity are: (1) basic education (basic reading and math skills), (2) diet of the labour force, (3) social overhead that makes labour available (water, sanitation, transportation, etc.), and (4) maintaining and expanding the skills necessary for changing technology and knowledge, as well as for teamwork and motivation.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Discussion Question 5",
+      "Text": "<p>Mass customization and rapid product development were identified as current trends in modern manufacturing operations. What is the relationship, if any, between these trends? Can you cite any examples?</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>Mass customization is the flexibility to produce in order to meet specific customer demands, without sacrificing the low cost of a product oriented process. Rapid product development is a source of competitive advantage. Both rely on agility within the organization.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Discussion Question 6",
+      "Text": "<p>What are five reasons productivity is difficult to improve in the service sector?</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>Labour productivity in the service sector is hard to improve because (1) many services are labour intensive and (2) they are individually (personally) processed (the customer is paying for that service—the hair cut), (3) it may be an intellectual task performed by professionals, (4) it is often difficult to mechanize and automate, and (5) often difficult to evaluate for quality.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Discussion Question 7",
+      "Text": "<p>Describe some of the actions taken by Taco Bell to increase productivity that have resulted in Taco Bell's ability to serve 'twice the volume with half the labour'.</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>Taco Bell designed meals that were easy to prepare; with actual cooking and food preparation done elsewhere; automation to save preparation time; reduced floor space; manager training to increase span of control.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Problem 1",
+      "Text": "\r\n\t\t<p>John Lucy makes wooden boxes in which to ship motorcycles. John and his three employees invest a total of 40 hours per day making 120 boxes.</p>\r\n\t\t\r\n\t\t<ol>\r\n\t\t<li>What is their productivity</li>\r\n\t\t<li>John and his employees have discussed redesigning the process to improve efficiency. If they increase their rate to 125 boxes per day, what will be their new productivity?</li>\r\n\t\t<li>What will be their new unit <em>increase</em> in productivity per hour?</li>\r\n\t\t<li>What will be their percentage change in productivity?</li>\r\n\t\t</ol>\t\r\n      ",
+      "MinCharacters": 50,
+      "Answer": "<ol>\r\n<li>120 boxes / 40 hours = 3.0 boxes/hour</li>\r\n<li>125 box / 40 hours = 3/125 boxes/hour</li>\r\n<li>Change in productivity = 0.125 boxes/hour</li>\r\n<li>Percentage change = 0.125 / 3.0 = 4.166%</li>\r\n</ol>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Problem 2",
+      "Text": "<p>Riverside Metal Works produces cast bronze valves on a 10-person assembly line. On a recent day, 160 valves were produced during an eight-hour shift.</p>\r\n<ol>\r\n<li>Calculate the labour productivity of the line.</li>\r\n<li>The manager at Riverside changed the layout and was able to increase production to 180 units per eight-hour shift. What is the new labour productivity per labour-hour?</li>\r\n<li>What is the percentage of productivity increase?</li>\r\n</ol>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<ol>\r\n<li>Labour productivity is 160 valves/80 hours = 2 valves per hour.</li>\r\n<li>New labour productivity = 180 valves / 80 hours = 2.25 valves per hour</li>\r\n<li>Percentage change in productivity = .25 valves / 2 valves = 12.5%</li>\r\n</ol>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Problem 3",
+      "Text": "<p>Aditi produces 'Final Exam Care Packages' for resale. She is currently working a total of five hours per day to produce 100 care packages.</p>\r\n<ol>\r\n<li>What is Aditi's productivity?</li>\r\n<li>Aditi thinks that by redesigning the package, she can increase her total productivity to 133 care packages per day. What will be her new productivity?</li>\r\n<li>WHat will be the percentage increase in productivity if Aditi makes the change?</li>\r\n</ol>",
+      "MinCharacters": 50,
+      "Answer": "<ol>\r\n<li>Units Produced / Input = 100 pkgs / 5 = 20 pkgs/hour</li>\r\n<li>133 pkgs / 5 = 26.6 pkgs per hour</li>\r\n<li>Increase in productivity = 6/6 / 20 = 33.0%</li>\r\n</ol>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Problem 4",
+      "Text": "<p>Halifax Seafood makes 500 wooden packing boxes for fresh seafood per day, working in two 10-hour shifts. Due to increased demand, plant managers have decided to operate three 8-hour shifts instead. The plant is now able to produce 650 boxes per day.</p>\r\n<ol>\r\n<li>Calculate the company's productivity before the change in work rules, and after the change.</li>\r\n<li>What is the percentage increase in productivity?</li>\r\n<li>If production is increased to 700 boxes per day, what is the new productivity?</li>\r\n</ol>",
+      "MinCharacters": 50,
+      "Answer": "<ol>\r\n<li>Before: 500 / 20 = 25 boxes per hour. After: 650 / 24 = 27.08</li>\r\n<li>27.08 / 25 = 1.083, or an increase of 8.3% in productivity.</li>\r\n<li>New labour productivity = 700 / 24 = 29.167 boxes per hour.</li>\r\n</ol>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+	"ActivityName" : " Knowledge Check",
+    "HeadingLevel" : 1,
+	"QuestionDisplay" : "all",
+	"ProvideContinuous" : true,
+	"ProvideQuestionReport" : true,
+	"ProvideEndReport" : true,
+	"VisualFeedback" : true,
+	"AllowPrevious" : false,
+	"Randomize" : false,
+	"Instructions" : "",
+    "PreActivityText" :  "none",
+	"PreActivityMedia":  "none",
+	"PostActivityText" :  "none",
+	"PostActivityMedia" :  "none",
+	"TableHeading" : "Question",
+	"Answers" : [
+		{
+			"text" : "True"
+		},
+		{
+			"text" : "False"
+		}
+	],
+	"Questions" : [
+		{
+			"text" : "Opposites attract.",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Research says we are most likely to have a successful relationship with people who are similar to us on important variables like age, race, socio-economic status, education and religion."
+				      	}
+					]
+				}
+			]
+		},
+		{
+			"text" : "Suicide rates are higher in adolescence than in any other age group.",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Incorrect."
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Suicide rates are highest in middle age."
+				      	}
+					]
+				}
+			]
+		},
+		{
+			"text" : "A person with Schizophrenia has a split personality.",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Personality stays intact in people with Schizophrenia. It is their thinking that becomes fragmented. "
+				      	}
+					]
+				}
+			]
+		},
+        {
+			"text" : "Listening to Mozart will enhance your intelligence.",
+			"answers" : [
+				{
+					"check" : false,
+					"feedback" : [
+				    	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Listening to music might enhance your mood, but research does not support a relationship between music and intelligence."
+				      	}
+					]
+				}
+			]
+		},
+        {
+			"text" : "Sugar causes hyperactivity in children.",
+			"answers" : [
+            {
+					"check" : false,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "Incorrect"
+				      	}
+					]
+				},
+				{
+					"check" : true,
+					"feedback" : [
+				     	{
+				        	"type": "text",
+				        	"content": "There is no conclusive research to support this."
+				      	}
+					]
+				}
+			]
+		}
+	]	
+}

@@ -1,0 +1,95 @@
+{
+    "QuizName" : "Activity: Matching Media",
+    "ActivityType" : "sort",
+    "FeedbackType" : "continuous",
+    "CorrectFeedback" : true,
+    "WrongFeedback" : true,
+    "HighlightEffect" : true,
+    "QuestionColums" : "1",
+    "Randomize" : true,
+    "PreQuizText" : "none",
+    "PreQuizMedia": "none",
+    "IncludePostPage" : true,
+    "PostQuizText" : "Way to go, You have ordered all the statements into the correct order!",
+    "PostQuizMedia": "none",
+    "AnswerNodes": [
+        {
+            "key": "cat_01",
+             "title": "International",
+             "color": "#00BCD4"
+        },
+        {
+            "key": "cat_02",
+            "title": "Global",
+            "color": "#F8981D"
+        },
+        {
+            "key": "cat_03",
+            "title": "Transnational",
+            "color": "#9C27B0"
+        },
+        {
+            "key": "cat_04",
+            "title": "Multidomestic",
+            "color": "#1976D2"
+        }
+    ],
+    "QuestionNodes": [
+        {
+            "question" : "Standardized product across all countries and important to keep costs low.",
+            "answer" : "cat_02",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "Use the same business model globally but adjust to tastes and needs of local customers.",
+            "answer" : "cat_04",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "The product is the same throughout the world. Exporting might be the right way to go.",
+            "answer" : "cat_01",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "Economies of scale are important but the company changes as needed for each country.",
+            "answer" : "cat_03",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "A product sold throughout the world in the same format but usually sold to cost-conscious B2B customers.",
+            "answer" : "cat_02",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "The product is the most important thing and people are willing to pay for it.",
+            "answer" : "cat_01",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "Franchising allows companies to use the same business model and people are willing to pay for their products.",
+            "answer" : "cat_04",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "The hardest strategy to achieve as you want to be responsive but you also want to be cost effective.",
+            "answer" : "cat_03",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        }
+    ]
+}
