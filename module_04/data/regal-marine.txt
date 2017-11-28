@@ -1,0 +1,25 @@
+{
+  "Video": {
+    "ContainID": "vpcontain",
+    "VideoID": "video0",
+    "Width": 720,
+    "Height": 480,
+    "Controls": true,
+    "StartTime": 0,
+    "Type": "Source",
+    "SourceData": {
+      "FolderPath": "data/",
+      "Sources": [
+        {
+          "Type": "MP4",
+          "Filename": "RegalMarine.mp4"
+        }
+      ]
+    }
+  },
+  "Popups": [
+    ],
+  "Bullets": {
+    "Lists": []
+  }
+}

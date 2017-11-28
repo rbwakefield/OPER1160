@@ -1,0 +1,68 @@
+{
+  "Questions": [
+    {
+      "Title": "<h4>Question 1</h4",
+      "Text": "<p>Which basic competitive strategy does Regal Marine follow?</p>\r\n",
+      "MinCharacters": 5,
+      "Answer": "<p>Differentiation.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "<h4>Question 1 Follow-up</h4",
+      "Text": "<p>Now, give an example of a “new” product feature.</p>\r\n",
+      "MinCharacters": 5,
+      "Answer": "<p>Taillights on the back of boats to act as brake lights when trailering</p><p>Step bottom hull which is a high performance hull for a pleasure boat</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "<h4>Question 2</h4",
+      "Text": "<p>To get an idea of the type of operation answer the following:</p><p>How many different models do they offer?<br/>What is the expected lifespan of their boats?<br/>What is the number of new product launches per year?</p>\r\n",
+      "MinCharacters": 5,
+      "Answer": "<p>How many different models do they offer? 22<br/>What is the expected lifespan of their boats? 3-7 years<br/>What is the number of new product launches per year? 4</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "<h4>Question 3</h4",
+      "Text": "<p>What method of product development do they use? (sequential or concurrent) and justify your answer.</p>\r\n",
+      "MinCharacters": 5,
+      "Answer": "<p>.  Concurrent.  As they describe the different stages note how they could easily overlap the different stages to speed up the development – the cost of the prototypes is not huge and the safety issues are not overreaching.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "<h4>Question 4</h4",
+      "Text": "<p>How do they determine the characteristics of a new product?</p>\r\n",
+      "MinCharacters": 5,
+      "Answer": "<p>usually come from the marketplace</p><p>industry experts vet the ideas (NPMT)</p><p>must fit with their mission and strategy and market niche</p><p>must be innovative / best in class (differentiated strategy)</p><p>must be able to be manufactured as they do strive to be profitable</p><p>must fit with dealers/distributors</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "<h4>Question 5</h4",
+      "Text": "<p>Why do they select design components already used on other boats? (i.e. standardization)</p>\r\n",
+      "MinCharacters": 5,
+      "Answer": "<p>No need to increase inventory investment for different stock keeping units and it allows them to reduce employee training.  Plus, they don’t have to do additional testing of new components.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "<h4>Question 6</h4",
+      "Text": "<p>How do they work to reduce their cycle time? (3 ways)</p>\r\n",
+      "MinCharacters": 5,
+      "Answer": "<p>technology improvements</p><p>introduce new raw materials</p><p>new processes to reduce the time to produce</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "<h4>Question 7</h4",
+      "Text": "<p>List the five stages in the Product Development Cycle.</p>\r\n",
+      "MinCharacters": 5,
+      "Answer": "<p>Concept Development</p><p>Planning</p><p>Design & Development</p><p>Commercial Preparation</p><p>Launch</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    }
+  ]
+}
