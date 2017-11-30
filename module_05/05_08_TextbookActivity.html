@@ -26,19 +26,19 @@
 	<body>
 		<!-- Main container-->
 		
-		<div class="col-sm-12 core-1 module4-header">
-			<h1>Product and Service Design</h1>
+		<div class="col-sm-12 core-1 module5-header">
+			<h1>Quality</h1>
 		</div>
 
 		<div class="container">
 			
-			<h2 class="text-core-3">Week 4 Textbook Activity</h2>
+			<h2 class="text-core-3">Week 5 Textbook Activity</h2>
 			
 			<p class="lead">Now it’s your turn to answer some questions and problems.</p>
 
 			<p>Although this activity is not marked, it is recommended to complete the activity, as these questions and problems will help you prepare for the mid-term and final exam.</p>
 
-			<p>You can reflect on your answers at any time by visiting the <a href="" target="_blank">Module 4 Textbook Activity Discussion Board <i class="fa fa-comments-o" aria-hidden="true"></i></a>, where your answers will be saved. <strong>Note: Only you will be able to see your answers.</strong></p>
+			<p>You can reflect on your answers at any time by visiting the <a href="" target="_blank">Module 5 Textbook Activity Discussion Board <i class="fa fa-comments-o" aria-hidden="true"></i></a>, where your answers will be saved. <strong>Note: Only you will be able to see your answers.</strong></p>
 			
 			<div class="card accent-2 text-center z-depth-1-half">
             	<div class="card-body">
@@ -50,7 +50,34 @@
 
 			<div class="clearfix"></div>
 			
-			<div id="editzone"></div>
+			<div class="pt-3" id="editzone"></div>
+			
+			<div class="clearfix"></div>
+			
+			<div class="row mt-3">
+				
+				<div class="col">
+					
+					<!--Panel-->
+					<div class="card">
+					    <h3 class="card-header core-3 white-text"><i class="fa fa-pencil" aria-hidden="true"></i> Additional Problems</h3>
+					    <div class="card-body">
+					        <h4 class="card-title"><i class="fa fa-file-word-o mr-1" aria-hidden="true"></i> Billy’s Hamburger Barn</h4>
+					        <p class="card-text">Download and read through this Word document, and answer some additional problems for this week.</p>
+					        
+					        <a href="documents/Additional%20Problems.docx"><btn class="btn core-3" style="margin-left: 0px" data-toggle="collapse" data-target="#Answers"> <i class="fa fa-download mr-1"></i> Download</button></a>
+					        
+					        <div id="Answers" class="collapse">
+					        	<a href="documents/Additional%20Problems_Answers.pdf"><button class="btn accent-1" style="margin-left: 0px;" data-toggle="collapse"><i class="fa fa-download mr-1"></i> Answer Key</button></a>
+					        </div>
+					        
+					    </div>
+					</div>
+					<!--/.Panel-->	
+									
+				</div>
+				
+			</div>
 
 		</div>
 		<!--/ Main container-->
@@ -99,7 +126,7 @@
 <script src="../facilitator_tools/WritingActivity/assets/thirdpartylib/Trumbowyg-master/dist/trumbowyg.js"></script>
 
 <script>
-	var jsonfilename = "04_08_TextbookActivity.txt";
+	var jsonfilename = "05_08_TextbookActivity.txt";
 </script> 
 
 <script src="../facilitator_tools/WritingActivity/assets/thirdpartylib/valence/global-superagent-d2l-session-auth.min.js"></script> 
@@ -118,6 +145,12 @@ $(document).ready(function(){
         $("div#instructions").hide();
     });
 });
+</script>
+
+<script>
+	function toggler(divId) {
+    $("#" + divId).toggle();
+}
 </script>
 		
 

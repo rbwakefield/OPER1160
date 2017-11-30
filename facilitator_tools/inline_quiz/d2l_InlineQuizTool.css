@@ -199,21 +199,21 @@
 }*/
 
 .ILQ_AnswerSlot.correct > .ILQ_impCont {
-	background-image: url(../graphics/Right_24.png);
+	background-image: url(graphics/Right_24.png);
 	background-size: contain;
 	background-position: 0px 0px !important;
 	cursor: default;
 }
 
 .ILQ_AnswerSlot.incorrect > .ILQ_impCont {
-	background-image: url(../graphics/Wrong_24.png);
+	background-image: url(graphics/Wrong_24.png);
 	background-size: contain;
 	background-position: 0px 0px !important;
 	cursor: default;
 }
 
 .ILQ_AnswerSlot.partial > .ILQ_impCont {
-	background-image: url(../graphics/Partially-Correct.png);
+	background-image: url(graphics/Partially-Correct.png);
 	background-size: contain;
 	background-position: 0px 0px !important;
 	cursor: default;
@@ -229,7 +229,7 @@
 	position: absolute;
 	float: left;
 
-	background-image: url(../graphics/Radio-Icons.png);
+	background-image: url(graphics/Radio-Icons.png);
 	background-repeat: no-repeat;
 }
 
@@ -394,7 +394,7 @@
 	margin: 0 auto;
 }
 
-.ILQ_continusResponceGraphic, .ILQ_RecapResponceGraphic{
+.ILQ_continusResponceGraphic, .ILQ_RecapResponceGraphic {
 	/* width: 20px; */
 	vertical-align: middle;
 	padding-right: 15px;

@@ -994,15 +994,15 @@ InlineQuizApp.BuildResponceText = function(containerRef, questionIndex) {
     }
 
     if(qScore >= maxScore){
-      RespImg.setAttribute('src', '../css/graphics/Right_24.png');
+      RespImg.setAttribute('src', '../facilitator_tools/inline_quiz/graphics/Right_24.png');
       RespImg.setAttribute('alt', "Right Answer");
       RespCntx.innerHTML = "Your answer was correct. You scored "+ qScore +" of a possible "+ maxScore + " on this question."
     } else if(qScore == 0) {
-      RespImg.setAttribute('src', '../css/graphics/Wrong_24.png');
+      RespImg.setAttribute('src', '../facilitator_tools/inline_quiz/graphics/Wrong_24.png');
       RespImg.setAttribute('alt', "Wrong Answer");
       RespCntx.innerHTML = "Your answer was not correct. You scored "+ qScore +" of a possible "+ maxScore + " on this question."
     } else if(InlineQuizApp.QuizData.General.allowPartial) {
-      RespImg.setAttribute('src', '../css/graphics/Partially-Correct.png');
+      RespImg.setAttribute('src', '../facilitator_tools/inline_quiz/graphics/Partially-Correct.png');
       RespImg.setAttribute('alt', "Partially Correct Answer");
       RespCntx.innerHTML = "Your answer was partially correct. You scored "+ qScore +" of a possible "+ maxScore + " on this question."
     }

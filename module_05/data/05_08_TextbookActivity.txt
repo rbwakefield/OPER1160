@@ -1,0 +1,28 @@
+{
+  "Questions": [
+    {
+      "Title": "Discussion Question 1",
+      "Text": "<p>Explain how improving quality can lead to reduced costs.</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>Higher quality leads to greater demand, to greater market share, to greater economies of scale. Additionally, higher quality leads to less scrap, rework, and warranty cost, hence to less input required for same output.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Discussion Question 2",
+      "Text": "<p>List the seven concepts that are necessary for an effective TQM program. How are these related to Deming's 14 points?</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>Seven concepts for an effective TQM program: continuous improvement, Six Sigma, employee empowerment, benchmark-ing, just-in-time, Taguchi concepts, and knowledge of TQM tools. The 14 points were Deming’s way of showing how he implemented TQM.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Discussion Question 3",
+      "Text": "<p>What are 10 determinants of service quality?</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>According to Berry, Zeithaml, and Parasuraman, the 10 determinants of service quality are; Reliability, Responsiveness, Competence, Access, Courtesy, Communication, Credibility,  Security, Understanding/knowing the customer, Tangibles</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "General": {
+    "QuizName": "Knowledge Check",
+    "feedBackType": "continuous",
+    "forceCorrect": false,
+    "repeatOnComplete": true,
+    "allowNone": false,
+    "allowPrevious": true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "showQuestions": "4",
+    "preQuizText": "Can you identify the type of Benchmarking?  Competitive or Process?",
+    "preQuizMedia": "none",
+    "postQuizText": "none",
+    "postQuizMedia": "none"
+  },
+  "Questions": [
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Comparing your grade in this class OPER1160 to your classmates?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Competitive",
+          "feedBack": "Good work! This is competitive benchmarking.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Process",
+          "feedBack": "Not quite! This is competitive benchmarking.",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Comparing your overall Grade Point Average (GPA) with students in Engineering?",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Competitive",
+          "feedBack": "Not quite! This is process benchmarking.",
+          "scoreValue": 0
+        },
+        {
+          "answerText": "Process",
+          "feedBack": "Good work! This is process benchmarking.",
+          "scoreValue": 1
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Canadian Tire comparing their supply chain with Dell computers.",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Process",
+          "feedBack": "Good work! This is process benchmarking.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Competitive",
+          "feedBack": "Not quite! This is process benchmarking.",
+          "scoreValue": 0
+        }
+      ]
+    },
+    {
+      "questionType": "Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText": "Home Hardware warehouse comparing their pick rates with Canadian Tire warehouse",
+      "hintText": "none",
+      "hintMedia": "none",
+      "answers": [
+        {
+          "answerText": "Competitive",
+          "feedBack": "Good work! This is competitive benchmarking.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Process",
+          "feedBack": "Not quite! This is competitive benchmarking.",
+          "scoreValue": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "Questions": [
+    {
+      "Title": "Discussion Question 1",
+      "Text": "<p>IWhat would be some of the disadvantages of being a Mystery Shopper?</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>Some Examples: not a full-time job, takes time and effort</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Discussion Question 2",
+      "Text": "<p>What types of things would you evaluate if hired to “shop” a restaurant like Crabby Joe’s or Montana’s?</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>Some Examples:  Did you go back and use the list of service quality determinants? Tangible would be the bill but the other attributes would be the intangibles often rated on a scale.</p>\r\n",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Discussion Question 3",
+      "Text": "<p>Consider the phases of product and service development that we've talked about. Why is it important to include customers early in the development process.</p>\r\n",
+      "MinCharacters": 50,
+      "Answer": "<p>It is important to consider the customers early in the development process because that is who is ultimately going to decide if the good is a success and buy it.  You want to meet as many of the customers’ needs as possible with the good so you need to know what they want when you make it.  If you do not find these needs early and incorporate them into the initial design then you risk having to change design and functionality later at a huge cost.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    }
+  ]
+}
