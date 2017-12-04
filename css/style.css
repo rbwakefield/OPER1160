@@ -124,6 +124,10 @@ p {
 	background: url('../module_05/images/quality.gif') no-repeat;
 	min-height: 700px;
 }
+.mod6-right {
+	background: url('../module_06/images/quality-2.gif') no-repeat;
+	min-height: 700px;
+}
 .mod-intro h1 {
 	padding: 40px;
 	font-size: 45pt;
@@ -166,6 +170,22 @@ p {
 }
 .module5-header {
 	background: url('../module_05/images/mod5-header.jpg') no-repeat;
+	padding-left: 115px;
+	padding-top: 50px;
+	min-height: 115px;
+	color: white;
+	font-size: 65pt;
+}
+.module6-header {
+	background: url('../module_06/images/mod6-header.jpg') no-repeat;
+	padding-left: 115px;
+	padding-top: 50px;
+	min-height: 115px;
+	color: white;
+	font-size: 65pt;
+}
+.module7-header {
+	background: url('../module_07/images/mod7-header.jpg') no-repeat;
 	padding-left: 115px;
 	padding-top: 50px;
 	min-height: 115px;

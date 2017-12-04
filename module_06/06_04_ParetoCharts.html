@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html class="full-height" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+		<meta content="ie=edge" http-equiv="x-ua-compatible">
+		<title>Quality</title>
+		
+		<!-- Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Bootstrap core CSS -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Material Design Bootstrap -->
+		<link href="../css/mdb.min.css" rel="stylesheet">
+		
+		<!-- Custom Style -->
+		<link href="../css/style.css" rel="stylesheet">
+		
+		<!-- Google Chart Stuff -->
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		google.load("visualization", "1", {packages:["corechart"]});
+		google.setOnLoadCallback(drawChart);
+		
+		var dataSet1 = [
+		    [ 'temperature', 8 ],
+		    [ 'billing', 5 ],
+		    [ 'late', 4 ],
+		    [ 'quality', 2 ],
+		    [ 'service', 1 ]
+		    ];
+		
+		var dataTitle = [ 'Issue', 'Frequency', 'Cumulative' ];
+		
+		function paretorize() {
+		  // Sort the dataSet array usung column 2
+		  dataSet1.sort( function(a,b) {
+		    return b[1] - a[1];
+		  });
+		
+		  // Calculate the total of column 2
+		  var sum = 0;
+		  for(row=0; row<dataSet1.length; row++) {
+		    sum += dataSet1[row][1];
+		  }
+		
+		  // Calculate the accumulating percentages
+		  // and add them into a new column in each row
+		  var accum = 0;
+		  for(row=0; row<dataSet1.length; row++) {
+		    dataSet1[row].push( accum+100*dataSet1[row][1]/sum );
+		    accum = dataSet1[row][2];
+		  }
+		
+		  // Add the title row at the beginning of dataSet
+		  // ('unshift' is not supported in IE8 and earlier)
+		  dataSet1.unshift( dataTitle );
+		}
+		
+		paretorize();
+		
+		function drawChart() {
+		  var data = google.visualization.arrayToDataTable( dataSet1 );
+		
+		  var options = {
+		    title:  'Pareto for Food Delivery Issues',
+		    colors: ['#00BCD4', '#e6693e'],
+		    legend: { position: 'none' },         // no legend
+		    // Create two vertical axes taking its titles from the first row
+		    vAxes:[
+		       { title: dataSet1[0][1], minValue: 0 }, 
+		       { title: dataSet1[0][2], minValue: 0, maxValue: 100 }
+		     ],
+		    hAxis:  { title: dataSet1[0][0] },
+		    backgroundColor: {strokeWidth: 2 },   // to get a nice box
+		    seriesType: "bars",                   // the standard chart type
+		    // the second data column should be of type 'line' and should be associated with the second vertical axis
+		    series: {1: {type: "line", targetAxisIndex: 1 }},  
+		    };
+		
+		  // Note: this calls a ComboChart !!!
+		  var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+		  chart.draw(data, options);
+		}
+		
+		</script>
+		
+	</head>
+	<body>
+		
+		<!-- Main container-->
+		
+		<div class="col-sm-12 core-1 module6-header">
+			<h1>Quality Management Tools</h1>
+		</div>
+
+		<div class="container">
+			
+			<h2 class="text-core-3">Pareto Charts</h2>
+			
+			<h3 class="text-core-4">(To organize the data)</h3>
+			
+			<p class="lead">Once data has been collected and you want to prepare an analysis, a <strong>Pareto Chart</strong> is a useful tool.</p>
+			
+			<p>Pareto’s Law or the Law of the Vital Few is known as the 80-20 rule. Roughly 80% of the problems or issues come from 20% of the causes. Therefore, a Pareto Chart helps pinpoint the major cause and tells you what to tackle first.</p>
+			
+			<p>Some examples of Pareto’s Law;</p>
+			
+			<ul class="fa-ul checklist">
+				<li><i class="fa-li fa fa-caret-right"></i>80% of a company’s profits come from 20% of its customers</li>
+				<li><i class="fa-li fa fa-caret-right"></i>80% of a company’s complaints come from 20% of its customers</li>
+				<li><i class="fa-li fa fa-caret-right"></i>80% of a company’s sales come from 20% of its products</li>
+			</ul>
+
+			<p>(Or on a more personal level….80% of the time you wear clothes that make up 20% of your closet.)</p>
+			
+			<p>A Pareto Chart at the Hard Rock Hotel on page 95 is solved using Excel in the file <a href="documents/Pareto%20for%20food%20delivery.xlsx" target="_blank">included here <i class="fa fa-file-excel-o" aria-hidden="true"></i></a> <em>(Lopers et al, 2016)</em>.  It is interesting to see it graphically in Excel but you need to be able to create a Pareto Chart so let’s walk through another example.</p>
+
+			
+			<h4 class="text-core-2">Food Delivery Issues – Pareto Chart</h4>
+			
+			<p>Remember the earlier Check Sheet?  Let’s create a Pareto Chart to help us figure out what should be tackled first.</p> 
+
+			<p>Steps to Follow:</p>
+			
+			<ol>
+				<li>Rearrange the number of complaints from highest to lowest number of occurrences.</li>
+				<li>Calculate the total of occurrences or complaints (20)</li>
+			
+			<div class="row mb-2 mt-2">
+				<div class="col-10">
+			<!--Table-->
+			<table class="table table-bordered table-hover z-depth-1-half">
+			
+			    <!--Table head-->
+			    <thead class="core-3 text-center">
+			        <tr>
+			            <th><strong>Issues</strong></th>
+			            <th># of Complaints (Step 1)</th>
+			            <th>Complaints as a % of Total (Step 3)</th>
+			            <th>Calculated Cumulative Total (Step 4)</th>
+			        </tr>
+			    </thead>
+			    <!--Table head-->
+			
+			    <!--Table body-->
+			    <tbody>
+			        <tr class="text-center">
+			            <th scope="row">temperature</th>
+			            <td>8</td>
+			            <td><span class="text-secondary">8/20</span> = 40%</td>
+			            <td>40%</td>
+			        </tr>
+			        <tr class="text-center">
+			            <th scope="row">billing</th>
+			            <td>5</td>
+			            <td><span class="text-secondary">5/20</span> = 25%</td>
+			            <td>65%</td>
+			        </tr>
+			        <tr class="text-center">
+			            <th scope="row">late</th>
+			            <td>4</td>
+			            <td><span class="text-secondary">4/20</span> = 20%</td>
+			            <td>85%</td>
+			        </tr>
+			        <tr class="text-center">
+			            <th scope="row">quality</th>
+			            <td>1</td>
+			            <td><span class="text-secondary">2/20</span> = 10%</td>
+			            <td>95%</td>
+			        </tr>
+			        <tr class="text-center">
+			            <th scope="row">service</th>
+			            <td>1</td>
+			            <td><span class="text-secondary">1/20</span> = 5%</td>
+			            <td>100%</td>
+			        </tr>
+			        <tr class="text-center">
+			            <th scope="row">Total Complaints (Step 2)</th>
+			            <td>20</td>
+			            <td> </td>
+			            <td> </td>
+			        </tr>
+			    </tbody>
+			    <!--Table body-->
+			</table>
+			<!--Table-->
+				</div>
+			</div>
+			
+				<li>Calculate each defect as a % of the total (method shown in grey)</li>
+				<li>Then find the cumulative total by adding the previous defect % until you reach 100%.  (follow the arrows).</li>
+				<li>With the data now calculated, draw the Pareto Chart with 2 Y axes as shown after this list.
+					<ol style="list-style: lower-roman;">				
+					<li>Label all four sides
+					<ul style="list-style: none;">
+						<li>Give it a title…Pareto for Food Delivery Issues</li>
+						<li>Left Side…Frequency (0 to highest # of occurrences…so more than 8)</li>
+						<li>Right Side…Cumulative % (at least 100%)</li>
+						<li>Bottom…Issue (description)</li>
+					</ul></li>
+					
+					<li>Plot the # of occurrences against the Frequency (left) axis from high (8) to low (1). Use bars centred over the corresponding Issue label.  Remember, highest to lowest.</li> 
+					<li>Plot the cumulative % of defects with a line relating to the right hand Y axis and again aligning with the issue label at the bottom of the chart. Remember start at left and it rises to 100%.</li>
+					</ol>
+				</li>
+			</ol>
+			
+			<p>Here, you will see the completed Pareto Chart using the Check Sheet data from the chart for fast food delivery issues, from the previous page.</p>
+			
+			<div class="row justify-content-center">
+				<div class="z-depth-1-half" id="chart_div" style="width: 800px; height: 450px;"></div>
+				<p class="small text-secondary mt-2"><em>Pareto Chart for food delivery issues</em></p>
+			</div>
+			
+			<!--Card Primary-->
+	        <div class="card accent-2 text-center z-depth-2">
+	            <div class="card-body">
+	                <p class="white-text mb-0"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <strong>Note</strong>: in your analysis it is important to state your findings with numbers. Be precise!</p>
+	            </div>
+	        </div>
+	        <!--/.Card Primary-->
+
+			<p>Pareto’s 80/20 Rule is a guideline that pinpoints the main problems and will allow you to make plans to solve them.  Thus, the Pareto Chart organizes the data and shows you the effect or problem that should be tackled first.</p>
+			
+			<p>The conclusion for this Pareto Chart is that you should tackle the first issue (temperature) that accounts for 20% (1 out of 5) of the identified issues and 40% of the cumulative issues.  So that is 40%/20%. Although not 80%/20% it does point out the most important issue (temperature) and if it is solved, a large portion of the issues will be resolved.</p>
+			
+			
+		</div>
+		<!--/ Main container-->
+		
+		<!--Footer-->
+
+		<footer class="page-footer center-on-small-only grey lighten-2">
+			<!--Copyright-->
+
+			<div class="footer-copyright black-text">
+				<div class="container-fluid">
+					© 2017 Copyright <a class="black-text" href="https://www.conestogac.on.ca">Conestoga College</a>
+				</div>
+			</div>
+			<!--/.Copyright-->
+		</footer>
+		
+		<!--/.Footer-->
+		
+		<!-- SCRIPTS -->
+		<!-- JQuery -->
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript">
+		</script> <!-- Bootstrap dropdown -->
+		 
+		<script src="../js/popper.min.js" type="text/javascript">
+		</script> <!-- Bootstrap core JavaScript -->
+		 
+		<script src="../js/bootstrap.min.js" type="text/javascript">
+		</script> <!-- MDB core JavaScript -->
+		 
+		<script src="../js/mdb.min.js" type="text/javascript">
+		</script> <!-- Animations init-->
+		 
+		<script>
+		      new WOW().init();
+		</script>
+
+		<!-- Open All Close All -->
+		
+		<script>
+			$('.closeall').click(function(){
+		  $('.collapse.show')
+		    .collapse('hide');
+		});
+		$('.openall').click(function(){
+		  $('.collapse:not(".show")')
+		    .collapse('show');
+		});
+		</script>
+		
+	</body>
+</html>
