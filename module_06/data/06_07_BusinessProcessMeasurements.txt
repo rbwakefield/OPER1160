@@ -3,7 +3,7 @@
     {
       "Title": "Problem 1",
       "Text": "<p>Calculate the Productivity per labour hour.</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>= Output/Inputs = 12 widgets / 8 hours = 1.5 widgets per hour</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -11,7 +11,7 @@
     {
       "Title": "Problem 2",
       "Text": "<p>Calculate the efficiency.</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>= Actual/Standard = 12 / 15 = 80 % … they are only producing 80 % of the standard so are not very efficient</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -19,7 +19,7 @@
     {
       "Title": "Problem 3",
       "Text": "<p>What are 10 determinants of service quality?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>= 8 hours or 480 minutes to make 15 widgets = 480 minutes /15 widgets =32 minutes Cycle Time/widget</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -27,7 +27,7 @@
     {
       "Title": "Problem 4",
       "Text": "<p>If the Value Added time is 24 minutes in each cycle, calculate the Effectiveness or % Value Added Time.</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>= Value Added time/Total Cycle Time = 24 minutes / 32 minutes = 75% of the cycle time is spent on value-added activities.  There is room for improvement!</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."

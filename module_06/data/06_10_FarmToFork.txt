@@ -3,7 +3,7 @@
     {
       "Title": "Question 1",
       "Text": "<p>Where is quality control done?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>Everywhere – at the food source, vendors, during transportation, in the restaurant kitchen and on the way to the customers.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -11,7 +11,7 @@
     {
       "Title": "Question 2",
       "Text": "<p>List 5 different types of TQM tools utilized at Darden.</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>Pareto Charts, Process flow charts, fishbone, scatter charts, SPC charts (X-bar for average and R-bar for range), capability histograms.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -19,7 +19,7 @@
     {
       "Title": "Question 3",
       "Text": "<p>Where does Darden check their product temperatures?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>Distribution centres, trucking lines, arrival at restaurant, during cooking and before presentation to guests.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."

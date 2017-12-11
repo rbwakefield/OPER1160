@@ -3,7 +3,7 @@
     {
       "Title": "Discussion Question 1",
       "Text": "<p>Based on the descriptions and analyses in this chapter, would Boeing be better described as a global firm or a transnational firm?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 10,
       "Answer": "<p>Global seems the better label for Boeing since authority and responsibility reside in the U.S. — the home country.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -11,7 +11,7 @@
     {
       "Title": "Discussion Question 2",
       "Text": "<p>List six reasons to internationalize operations.</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 10,
       "Answer": "<p>Six reasons to internationalize: Reduce costs, improve supply chain, provide better goods and services, attract new markets, learn to improve operations, attract and retain global talent.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -19,7 +19,7 @@
     {
       "Title": "Discussion Question 3",
       "Text": "<p>Coca-Cola is called a global product. Does this mean that it is formulated in the same way throughout the world?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 10,
       "Answer": "<p>No. Sweetness at Coca-Cola is adjusted for the tastes of individual countries.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -27,7 +27,7 @@
     {
       "Title": "Discussion Question 4",
       "Text": "<p>Describe how an organization's <em>mission</em> and <em>strategy</em> have different purposes.</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 10,
       "Answer": "<p>A <em>mission</em> specifies where the organization is going and a <em>strategy</em> specifies how it is going to get there.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -35,15 +35,15 @@
     {
       "Title": "Discussion Question 5",
       "Text": "<p>Identify the missions and strategy of your automobile repair garage. What are the manifestations of the 10 OM decisions at the garage? That is, how is each of the 10 decisions accomplished?</p>\r\n",
-      "MinCharacters": 50,
-      "Answer": "<p>The answer to this question will depend on the establishment studied, but should probably include some of the following considerations:</p>\r\n      \r\n      <p><strong>The mission:</strong> diagnose automobile problems and make the neces-sary repair at a fair price for the local customer.</p>\r\n      \r\n      <p>Points to consider, or options, within the 10 decision areas are:</p>\r\n      \r\n\t<ul>\r\n\t\t<li><strong>Product</strong>: Repair work of North American and/or foreign vehicles; specialized (tune-ups, lubrication, wheel alignment, etc.) versus general repair; frame and body repair versus engine and power train repair; repair and maintenance only, versus repair, maintenance, and sales of fuel; professional staffing versus rental of tools and space for do-it-yourself repair work</li>\r\n\t\t<li><strong>Quality</strong>: Appropriate level of quality; warranty; method of measuring and maintaining quality (customer complaints, inspection by supervising mechanic, etc.)</li>\r\n\t\t<li><strong>Process</strong>: Use of general versus special purpose diag-nostic and repair equipment (in particular, the degree to which computer controlled diagnostic equipment is employed)</li>\r\n\t\t<li><strong>Location</strong>: In-town, shopping mall, highway</li>\r\n\t\t<li><strong>Layout</strong>: Single bay/multibay; general-purpose bay  versus special-purpose bay (lubrication/tire repairs and installation/wheel alignment/engine and power train repair, etc.)</li>\r\n\t\t<li><strong>Human resources</strong>: Employment of certified versus noncertified repair persons; employment of specialists versus general mechanics</li>\r\n\t\t<li><strong>Supply chain</strong>: Choice of supplier(s) for both general and original manufacturer parts and supplies</li>\r\n\t\t<li><strong>Scheduling</strong>: Hours of operation (8:00 a.m.–5:00 p.m.;  24-hour towing; weekends/holidays), repairs versus motor vehicle safety inspections, etc.; service by appointment versus walk-in (or drive-up) service</li>\r\n\t\t<li><strong>Inventory</strong>: Quantity and variety of repair parts (fan belts, filters, mufflers, headlights, etc.) to stock; whether to stock generic or original manu-facturer parts</li>\r\n\t\t<li><strong>Maintenance</strong>: Bays with hydraulic lifts vs. easier-to-maintain “basement” work areas. Preventive maintenance of equipment vs. breakdown.</li>\r\n\t</ul>",
+      "MinCharacters": 10,
+      "Answer": "<p>The answer to this question will depend on the establishment studied, but should probably include some of the following considerations:</p>\r\n      \r\n      <p><strong>The mission:</strong> diagnose automobile problems and make the neces-sary repair at a fair price for the local customer.</p>\r\n      \r\n      <p>Points to consider, or options, within the 10 decision areas are:</p>\r\n      \r\n\t<ul>\r\n\t\t<li><strong>Product</strong>: Repair work of North American and/or foreign vehicles; specialized (tune-ups, lubrication, wheel alignment, etc.) versus general repair; frame and body repair versus engine and power train repair; repair and maintenance only, versus repair, maintenance, and sales of fuel; professional staffing versus rental of tools and space for do-it-yourself repair work</li>\r\n\t\t<li><strong>Quality</strong>: Appropriate level of quality; warranty; method of measuring and maintaining quality (customer complaints, inspection by supervising mechanic, etc.)</li>\r\n\t\t<li><strong>Process</strong>: Use of general versus special purpose diag-nostic and repair equipment (in particular, the degree to which computer controlled diagnostic equipment is employed)</li>\r\n\t\t<li><strong>Location</strong>: In-town, shopping mall, highway</li>\r\n\t\t<li><strong>Layout</strong>: Single bay/multibay; general-purpose bay  versus special-purpose bay (lubrication/tire repairs and installation/wheel alignment/engine and power train repair, etc.)</li>\r\n\t\t<li><strong>Human resources</strong>: Employment of certified versus noncertified repair persons; employment of specialists versus general mechanics</li>\r\n\t\t<li><strong>Supply chain</strong>: Choice of supplier(s) for both general and original manufacturer parts and supplies</li>\r\n\t\t<li><strong>Scheduling</strong>: Hours of operation (8:00 a.m.–5:00 p.m.;  24-hour towing; weekends/holidays), repairs versus motor vehicle safety inspections, etc.; service by appointment versus walk-in (or drive-up) service</li>\r\n\t\t<li><strong>Inventory</strong>: Quantity and variety of repair parts (fan belts, filters, mufflers, headlights, etc.) to stock; whether to stock generic or original manu-facturer parts</li>\r\n\t\t<li><strong>Maintenance</strong>: Bays with hydraulic lifts vs. easier-to-maintain “basement” work areas. Preventive maintenance of equipment vs. breakdown</li>\r\n\t</ul>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
     },
     {
       "Title": "Problem 1",
-      "Text": "<p>The text provides three primary wave – strategic approaches (differentiation, cost, and response) – for achieving competitive advantage. Provide and example of each not given in the text. Support your choices. <em>(Hint: Note the examples provided in the text.)</em></p>\r\n",
-      "MinCharacters": 50,
+      "Text": "<p>The text provides three primary ways – strategic approaches (differentiation, cost, and response) – for achieving competitive advantage. Provide and example of each not given in the text. Support your choices. <em>(Hint: Note the examples provided in the text.)</em></p>\r\n",
+      "MinCharacters": 10,
       "Answer": "<p>The three methods are cost leadership, differentiation, and response. Cost leadership can be illustrated by Walmart, with low overhead and huge buying power to pressure its suppliers into concessions. Differentiation can be illustrated by almost any restaurant or restaurant chain, such as Red Lobster, which offers a distinct menu and style of service than others. Response can be illustrated by a courier service such as FedEx, that guarantees specific delivery schedules; or by a custom tailor, who will hand make a suit specifically for the customer.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -51,7 +51,7 @@
     {
       "Title": "Problem 2",
       "Text": "<p>Within the food service industry (restaurants that serve meals to customers, but not just fast food), find examples of firms that have sustained competitive advantage by competing on the basis of (1) cost leadership, (2) response, and (3) differentiation. Cite one example in each category; provide a sentence or two in support of each choice. Do not use fast-food chains for all categories. (Hint: A '99¢ menu' is very easily copied and is not a good source of sustained advantage.)</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 10,
       "Answer": "<p>Cost leadership: institutional food services, such as Sodexho, provide meal service to college campuses and similar institutions. Such firms often get their contracts by being low bidder to provide service. Response: a catering firm (the customer picks the menu, time, and date). Differentiation: virtually all restaurants seek differentiation in menu, in taste, in service. This is particularly true of fine dining restaurants, but also true of fast food restaurants. For instance, Burger King likes to talk about meals “anyway you want them,” and McDonald’s has a playground or seating area for children.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."

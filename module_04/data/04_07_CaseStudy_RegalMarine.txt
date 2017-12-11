@@ -28,7 +28,7 @@
       "Title": "<h4>Question 3</h4",
       "Text": "<p>What method of product development do they use? (sequential or concurrent) and justify your answer.</p>\r\n",
       "MinCharacters": 5,
-      "Answer": "<p>.  Concurrent.  As they describe the different stages note how they could easily overlap the different stages to speed up the development – the cost of the prototypes is not huge and the safety issues are not overreaching.</p>",
+      "Answer": "<p>.  Concurrent. As they describe the different stages note how they could easily overlap the different stages to speed up the development – the cost of the prototypes is not huge and the safety issues are not overreaching.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
     },

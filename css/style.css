@@ -128,6 +128,10 @@ p {
 	background: url('../module_06/images/quality-2.gif') no-repeat;
 	min-height: 700px;
 }
+.mod9-right {
+	background: url('../module_09/images/SupplyManagement.gif') no-repeat;
+	min-height: 700px;
+}
 .mod-intro h1 {
 	padding: 40px;
 	font-size: 45pt;
@@ -186,6 +190,14 @@ p {
 }
 .module7-header {
 	background: url('../module_07/images/mod7-header.jpg') no-repeat;
+	padding-left: 115px;
+	padding-top: 50px;
+	min-height: 115px;
+	color: white;
+	font-size: 65pt;
+}
+.module9-header {
+	background: url('../module_09/images/mod9-header.jpg') no-repeat;
 	padding-left: 115px;
 	padding-top: 50px;
 	min-height: 115px;
@@ -356,4 +368,14 @@ div.face.back a.rotate-btn {
 }
 .timeline-body>p+p {
 	margin-top: 5px;
+}
+
+
+/* SCROLLABLE TABLE */
+
+.table-wrapper-2 {
+    display: block;
+    max-height: 300px;
+    overflow-y: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }

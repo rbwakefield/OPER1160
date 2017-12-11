@@ -101,12 +101,12 @@
       "answers": [
         {
           "answerText": "Product",
-          "feedBack": "A cafeteria lunch is a product.",
+          "feedBack": "A cafeteria lunch is mainly a product with minimal service included.",
           "scoreValue": 1
         },
         {
           "answerText": "Service",
-          "feedBack": "A cafeteria lunch is a product.",
+          "feedBack": "A cafeteria lunch is mainly a product with minimal service included.",
           "scoreValue": 0
         }
       ]

@@ -1,0 +1,28 @@
+{
+  "Questions": [
+    {
+      "Title": "Question 1",
+      "Text": "<p>Consider the cafeteria services available at a university. In many cases, these services are outsourced to a private firm. Use Tables 5.6 and 5.7 in your text as guides to explain why this is the case. In what quadrant would such services be positioned when determining a sourcing strategy (Figure 5.5)?</p>\r\n",
+      "MinCharacters": 25,
+      "Answer": "<p>The cafeteria services available at universities are often outsourced because they are not a core competency of the university and thus, the university can most likely get better quality and value by outsourcing these services to a provider for whom it is a core competency.  By outsourcing, the university faces a low investment risk that comes with high strategic flexibility and it will realize an improved cash flow.  Since the university is buying cafeteria services, it is working in the routine quadrant.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Question 2",
+      "Text": "<p>In this section, we suggested that advanced information systems will automate some of the more routine purchasing activities. What are the implications for purchasing professionals? Is this a good time to join the purchasing profession? Explain.</p>\r\n",
+      "MinCharacters": 25,
+      "Answer": "<p>Information systems have already eliminated many of the traditional clerical tasks that purchasing professionals had to do.  Orders can be made online, planning and control systems can generate orders automatically and information systems can instantly forward component requirements to suppliers, minimizing the need for purchasing intervention.  It is a good time to join the purchasing profession because companies are becoming more dependent on suppliers. The information systems can automate some tasks, but purchasers are still needed to make initial contact, create substantive relationships, and negotiate terms and agreements with suppliers.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Question 3",
+      "Text": "<p>What are the four broad categories of 'causes' to help initially structure an Ishikawa diagram or cause-and-effect diagram?</p>\r\n",
+      "MinCharacters": 25,
+      "Answer": "<p>Ishikawa “causes”: material, machinery/equipment, methods, and manpower.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    }
+  ]
+}

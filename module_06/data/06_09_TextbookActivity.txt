@@ -3,7 +3,7 @@
     {
       "Title": "Question 1",
       "Text": "<p>What are the seven tools of TQM?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>The seven tools of TQM are; Checksheet, Scatter diagram, Histograms, Pareto charts, Flow charts, Cause-and-effect diagrams, Statistical process control chart.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -11,7 +11,7 @@
     {
       "Title": "Question 2",
       "Text": "<p>What is the purpose of using a Pareto chart for a given problem?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>A Pareto chart’s purpose is to identify the critical problems and separate them from the less important ones.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -19,7 +19,7 @@
     {
       "Title": "Question 3",
       "Text": "<p>What are the four broad categories of 'causes' to help initially structure an Ishikawa diagram or cause-and-effect diagram?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>Ishikawa “causes”: material, machinery/equipment, methods, and manpower.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."

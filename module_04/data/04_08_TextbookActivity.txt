@@ -3,7 +3,7 @@
     {
       "Title": "Discussion Question 1",
       "Text": "<p>In this chapter, we described several approaches to product design, including parts standardization and modularity. How do these two approaches relate to the dimensions of product design described earlier in the chapter?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>Parts standardization is focused on using similar parts across different products to reduce part/supplier proliferation. This helps with repeatability, product costs, testability, and serviceability. Having the same parts from the same suppliers will offer volume discounts to save costs, it will make servicing easier because there is only one part to worry about, and testability/repeatability will be easier since you are comparing the same parts, apples to apples.  Modular architecture focuses on having well-defined chunks and functions of product design.  This helps with the repeatability, testability, and matching design with existing capabilities because the well-defined functions help engineers repeat and test the products the same every time and the definitions will help create designs that match existing capabilities.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -11,15 +11,15 @@
     {
       "Title": "Discussion Question 2",
       "Text": "<p>We talked about concurrent engineering as an alternative to sequential development. What are the advantages of concurrent engineering? Under what circumstances might sequential development be preferable?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>The advantages of concurrent engineering over sequential engineering are:  shortens development times, forces teams to agree and stick to process characteristics early in development, and forces communication between all groups so that issues can be worked out together.  Sequential development may be preferable if there is not general agreement on the characteristics of the new product at the beginning of the process.  If this is the case, teams will need to create consensus as they go through each process step one-by-one.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
     },
     {
       "Title": "Discussion Question 3",
-      "Text": "<p>Consider the phases of product and service development that we've talked about. Why is it important to include customers early in the development process</p>\r\n",
-      "MinCharacters": 50,
+      "Text": "<p>Consider the phases of product and service development that we've talked about. Why is it important to include customers early in the development process?</p>\r\n",
+      "MinCharacters": 20,
       "Answer": "<p>It is important to consider the customers early in the development process because that is who is ultimately going to decide if the good is a success and buy it.  You want to meet as many of the customers’ needs as possible with the good so you need to know what they want when you make it.  If you do not find these needs early and incorporate them into the initial design then you risk having to change design and functionality later at a huge cost.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -27,7 +27,7 @@
     {
       "Title": "Discussion Question 4",
       "Text": "<p>Which type of product development effort would be better suited to concurrent engineering: a radically new product involving some cutting-edge technologies or the latest version of an existing product? Why?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>The latest version of an existing product would be better suited for concurrent engineering. The new product has guidelines already established, which makes it easier for phases to overlap without leaving out any large details.  The new technology would want each development team to inspect and design their portion of the product so that everything has been deliberately created and looked at before the product is launched.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
@@ -35,7 +35,7 @@
     {
       "Title": "Discussion Question 5",
       "Text": "<p>What are some of the benefits of including suppliers in the product development process? Can you think of any risks?</p>\r\n",
-      "MinCharacters": 50,
+      "MinCharacters": 20,
       "Answer": "<p>Some benefits of supplier inclusion are gaining a supplier’s insight into the development process, allowing comparisons of proposed production requirements with a supplier’s existing capabilities, and allowing a supplier to begin preproduction work early.  The risks are that if you give suppliers the blueprint of your product, you never know if that information could be stolen or given to a competitor. You also are risking losing competition for parts because if you include the supplier in the development then you are really committing to them as suppliers for the product for the foreseeable future.</p>\r\n",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
