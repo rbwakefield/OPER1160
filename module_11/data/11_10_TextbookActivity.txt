@@ -1,0 +1,44 @@
+{
+  "Questions": [
+    {
+      "Title": "Question 1",
+      "Text": "<p>Someone tells you that logistics is really just trucking and warehousing. Explain why this view is inadequate.</p>\r\n",
+      "MinCharacters": 20,
+      "Answer": "<p>The view that logistics is just trucking and warehousing is wrong because these are only two of the key decision areas that make up logistics. Logistics is the part of the supply chain that plans, implements, and controls the efficient, effective flows and storage of goods and services between the point of order and point of consumption in order to meet the customers’ requirements.  In order to control these flows of goods and services, companies need to be efficient in transportation, warehousing, material handling, packaging, inventory management, and information systems.  Without properly integrating all of the aforementioned components of logistics management, the rest of the supply chain would break down which is why it is more than just trucking and warehousing.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Question 2",
+      "Text": "<p>A colleague tells you that warehousing is inconsistent with efforts to minimize inventory levels throughout the supply chain. Is this true or false? Explain.</p>\r\n",
+      "MinCharacters": 20,
+      "Answer": "<p>It is a false claim that warehousing is inconsistent with efforts to minimize inventory levels through the supply chain.  When warehousing is leveraged correctly, such as inventory pooling, a company can avoid having wasteful inventory in each store by having a safety stock in a central location.  By having a central location to hold stock, firms can limit lead times to the customer, have extra stock for spikes in demand, and support multiple locations from a single location.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Question 3",
+      "Text": "<p>Why will landed costs become a more important consideration as firms participate in more international logistics arrangements?</p>\r\n",
+      "MinCharacters": 20,
+      "Answer": "<p>Landed costs become more important for firms that participate in international logistics because these firms will incur multiple types of costs throughout their supply chain.  Landed costs include the product cost plus all costs driven by activities including: transportation, warehousing, handling, and customs fees among others. International supply chains will have to consider landed costs in the forms of customs fees, and they need to pay a freight forwarder to be an intermediary between the shipping organization and the actual carrier.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Question 4",
+      "Text": "<p>Why is it important for firms to have a logistics strategy? What could happen if a firm did not logically link its logistics decisions to the needs of its customers?</p>\r\n",
+      "MinCharacters": 20,
+      "Answer": "<p>Why is it important for firms to have a logistics strategy? Consider the wide range of business activities that fall under the umbrella of logistics: transportation, warehousing, material handling, packaging, inventory management, and logistics information systems.  As with other operations areas, logistics involves choice.  If a company does not have a guiding strategy to ensure that these pieces fit together and support the business strategy, it’s highly unlikely that the firm will make consistent choices across all these complex areas.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Question 5",
+      "Text": "<p>Can logistics be an area of core competency for a company? Can you think of an example?</p>\r\n",
+      "MinCharacters": 20,
+      "Answer": "<p>Logistics can be an area of core competency for a company. A prime example is that of UPS.  UPS’s business slogan is “We love Logistics,” and their business strategy is to be the one-stop shop of logistics for their customers.  They do all of the necessary logistic functions, including: warehousing, shipping, tracking, material handling, and inventory management.  It makes sense for a company to have logistics as a core competency because it is an area of the supply chain where a lot of money is spent, thus a lot of money could be saved if it is managed skillfully.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    }
+  ]
+}

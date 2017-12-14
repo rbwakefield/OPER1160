@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html class="full-height" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+		<meta content="ie=edge" http-equiv="x-ua-compatible">
+		<title>Quality</title>
+		
+		<!-- Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Bootstrap core CSS -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Material Design Bootstrap -->
+		<link href="../css/mdb.min.css" rel="stylesheet">
+		
+		<!-- Custom Style -->
+		<link href="../css/style.css" rel="stylesheet">
+		
+	</head>
+	<body>
+		
+		<!-- Main container-->
+		
+		<div class="col-sm-12 core-1 module9-header">
+			<h1>Supply Management II</h1>
+		</div>
+
+		<div class="container">
+			
+			<h2 class="text-core-3">The Weighted-Point Evaluation System</h2>
+			
+			<p class="lead">This is a common decision model used to evaluate suppliers objectively.</p>
+			
+			<p>It identifies key criteria and assigns numerical scores to performance. This type of decision model works best when there are several criteria and alternative suppliers to be considered, with no clear leader. A total score for each supplier will be calculated by assigning weights to our selected performance criteria and then rating the suppliers on these criteria.</p>
+			
+			<div class="row">
+				<div class="col">
+					<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+					 <semantics>
+					  <mrow>
+					   <mi mathvariant="italic">Score</mi>
+					   <mo stretchy="false">=</mo>
+					   <mrow>
+					    <mrow>
+					     <munderover>
+					      <mo stretchy="false">∑</mo>
+					      <mrow>
+					       <mi>y</mi>
+					       <mo stretchy="false">=</mo>
+					       <mn>1</mn>
+					      </mrow>
+					      <mi>n</mi>
+					     </munderover>
+					     <msub>
+					      <mi mathvariant="italic">Performance</mi>
+					      <mi mathvariant="italic">XY</mi>
+					     </msub>
+					    </mrow>
+					    <mo stretchy="false">×</mo>
+					    <msub>
+					     <mi>W</mi>
+					     <mi>Y</mi>
+					    </msub>
+					   </mrow>
+					  </mrow>
+					  <annotation encoding="StarMath 5.0">Score = sum from{y=1} to{n} Performance rsub{XY} TIMES W rsub{Y}</annotation>
+					 </semantics>
+					</math>					
+				</div>
+				<div class="col">
+					<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+					 <semantics>
+					  <mtable>
+					   <mtr>
+					    <mtd>
+					     <mrow>
+					      <mi mathvariant="italic">where</mi>
+					      <mi mathvariant="normal">:</mi>
+					     </mrow>
+					    </mtd>
+					   </mtr>
+					   <mtr>
+					    <mtd>
+					     <mrow>
+					      <mrow>
+					       <mi>X</mi>
+					       <mo stretchy="false">=</mo>
+					       <mi mathvariant="italic">supplier</mi>
+					      </mrow>
+					      <mi>X</mi>
+					     </mrow>
+					    </mtd>
+					   </mtr>
+					   <mtr>
+					    <mtd>
+					     <mrow>
+					      <mrow>
+					       <mi>Y</mi>
+					       <mo stretchy="false">=</mo>
+					       <mi mathvariant="italic">performance</mi>
+					      </mrow>
+					      <mi mathvariant="italic">dimension</mi>
+					      <mi>Y</mi>
+					     </mrow>
+					    </mtd>
+					   </mtr>
+					  </mtable>
+					  <annotation encoding="StarMath 5.0">alignl stack{where: # X = supplier X # Y = performance dimension Y}  </annotation>
+					 </semantics>
+					</math>
+				</div>
+			</div>
+			
+			<div class="row justify-content-center">
+				<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+				 <semantics>
+				  <mrow>
+				   <mrow>
+				    <mrow>
+				     <msub>
+				      <mi mathvariant="italic">Performance</mi>
+				      <mi mathvariant="italic">XY</mi>
+				     </msub>
+				     <mo stretchy="false">=</mo>
+				     <mi mathvariant="italic">rated</mi>
+				    </mrow>
+				    <mi mathvariant="italic">performance</mi>
+				    <mi mathvariant="italic">of</mi>
+				    <mi mathvariant="italic">supplier</mi>
+				    <mi>X</mi>
+				    <mi mathvariant="italic">with</mi>
+				    <mi mathvariant="italic">regard</mi>
+				    <mi mathvariant="italic">to</mi>
+				    <mi mathvariant="italic">performance</mi>
+				    <mi mathvariant="italic">dimension</mi>
+				    <mi>Y</mi>
+				    <mi>.</mi>
+				   </mrow>
+				  </mrow>
+				  <annotation encoding="StarMath 5.0">Performance_{XY} = rated performance of supplier X with regard to performance dimension Y.</annotation>
+				 </semantics>
+				</math>				
+			</div>
+			
+			<div class="row justify-content-center">
+				<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+				 <semantics>
+				  <mrow>
+				   <mrow>
+				    <msub>
+				     <mi>W</mi>
+				     <mi>Y</mi>
+				    </msub>
+				    <mo stretchy="false">=</mo>
+				    <mi mathvariant="italic">assigned</mi>
+				   </mrow>
+				   <mi mathvariant="italic">weight</mi>
+				   <mi mathvariant="italic">for</mi>
+				   <mi mathvariant="italic">performance</mi>
+				   <mi mathvariant="italic">dimension</mi>
+				   <mi>Y</mi>
+				   <mi>,</mi>
+				   <mi mathvariant="italic">where</mi>
+				   <mrow>
+				    <mrow>
+				     <munderover>
+				      <mo stretchy="false">∑</mo>
+				      <mrow>
+				       <mi>y</mi>
+				       <mo stretchy="false">=</mo>
+				       <mn>1</mn>
+				      </mrow>
+				      <mi>n</mi>
+				     </munderover>
+				     <msub>
+				      <mi>W</mi>
+				      <mi>Y</mi>
+				     </msub>
+				    </mrow>
+				    <mo stretchy="false">=</mo>
+				    <mn>1</mn>
+				   </mrow>
+				  </mrow>
+				  <annotation encoding="StarMath 5.0">W_{Y} = assigned weight for performance dimension Y, where sum from{y=1} to{n} W_{Y} = 1</annotation>
+				 </semantics>
+				</math>				
+			</div>
+			
+        <!--Card Primary-->
+        <div class="card accent-2 text-center z-depth-2">
+            <div class="card-body">
+                <p class="white-text mb-0">Let’s practice using the following example for a carton of 2 pie shells. We have 3 potential suppliers and the same criteria as in Example 5.6 in the text.</p>
+            </div>
+        </div>
+        <!--/.Card Primary-->
+        
+        <div class="row">
+        	<div class="col">
+				<table class="table table-striped table-hover text-center z-depth-1-half" summary="Potential Suppliers" id="potential_suppliers">
+				 <thead class="core-4">
+				  <tr>
+				   <th scope="col"> </th>
+				   <th colspan="3" scope="col">Potential Suppliers</th>
+				  </tr>
+				 </thead>
+				 <tbody>
+				  <tr class="table-info">
+				   <td>Performance Criteria</td>
+				   <td>Weston's</td>
+				   <td>Dempster's</td>
+				   <td>Cathy's</td>
+				  </tr>
+				  <tr>
+				   <td>Price</td>
+				   <td>$2.50/unit</td>
+				   <td>#3.00/unit</td>
+				   <td>#3.75/unit</td>
+				  </tr>
+				  <tr>
+				   <td>Quality</td>
+				   <td>5% defects</td>
+				   <td>1% defects</td>
+				   <td>3% defects</td>
+				  </tr>
+				  <tr>
+				   <td>Delivery Reliability</td>
+				   <td>90% on time</td>
+				   <td>97% on time</td>
+				   <td>95% on time</td>
+				  </tr>
+				 </tbody>
+				</table>        		
+        	</div>
+        	
+        	<div class="col">
+	        	
+        		<p>The next steps are to weight the criteria and develop a scoring system.</p>
+        		
+        		<div class="row">
+        			<div class="col">
+	        			
+        				<h4 class="text-accent-1">Weighting<br/><span class="small text-secondary">must equal one</span></h4>
+        				
+        				<p><strong>W<sub>price</sub> = 0.5</strong></p>
+        				
+        				<p><strong>W<sub>quality</sub> = 0.3</strong></p>
+        				
+        				<p><strong>W<sub>delivery</sub> = 0.2</strong></p>
+        				
+        			</div>
+        			
+        			<div class="col">
+	        			
+        				<h4 class="text-accent-2">Scoring Scheme</h4>
+        				
+        				<p><strong>5 = Excellent</strong></p>
+        				
+        				<p><strong>4 = Good</strong></p>
+        				
+        				<p><strong>3 = Average</strong></p>
+        				
+        				<p><strong>2 = Fair</strong></p>
+        				
+        				<p><strong>1 = Poor</strong></p>
+        				
+        			</div>
+        		</div>
+
+        	</div>
+        </div>
+        
+        <div class="clearfix"></div>
+        
+        <p><strong>Now let’s score each supplier in each category.</strong></p>
+        
+		<table class="table table-striped table-bordered table-hover text-center z-depth-1-half" summary="Potential Suppliers" id="potential_suppliers">
+		 <thead class="core-4">
+		  <tr>
+		   <th colspan="2" scope="col"> </th>
+		   <th colspan="6" scope="col">Potential Suppliers</th>
+		  </tr>
+		 </thead>
+		 <tbody>
+		  <tr class="table-info">
+		   <td colspan="2"> </td>
+		   <td colspan="2">Weston's</td>
+		   <td colspan="2">Dempster's</td>
+		   <td colspan="2">Cathy's</td>
+		  </tr>
+		  <tr>
+		   <td>Performance Dimension</td>
+		   <td>Weight</td>
+		   <td>Score</td>
+		   <td>Weight x Score</td>
+		   <td>Score</td>
+		   <td>Weight x Score</td>
+		   <td>Score</td>
+		   <td>Weight x Score</td>
+		  </tr>
+		  <tr>
+		   <td>Price</td>
+		   <td>0.5</td>
+		   <td>5</td>
+		   <td> </td>
+		   <td>3</td>
+		   <td> </td>
+		   <td>2</td>
+		   <td> </td>
+		  </tr>
+		  <tr>
+		   <td>Quality</td>
+		   <td>0.3</td>
+		   <td>2</td>
+		   <td> </td>
+		   <td>5</td>
+		   <td> </td>
+		   <td>3</td>
+		   <td> </td>
+		  </tr>
+		  <tr>
+		   <td>Driver Reliability</td>
+		   <td>0.2</td>
+		   <td>1</td>
+		   <td> </td>
+		   <td>4</td>
+		   <td> </td>
+		   <td>3</td>
+		   <td> </td>
+		  </tr>
+		  <tr>
+		   <td colspan="2">Total</td>
+		   <td> </td>
+		   <td> </td>
+		   <td> </td>
+		   <td> </td>
+		   <td> </td>
+		   <td> </td>
+		  </tr>
+		 </tbody>
+		</table>
+		
+		<div class="clearfix"></div>
+		
+		<p><strong>Then we multiply the weight of the performance dimension x the score for each supplier.</strong></p>
+
+		<table class="table table-striped table-bordered table-hover text-center z-depth-1-half" summary="Potential Suppliers" id="potential_suppliers">
+		 <thead class="core-4">
+		  <tr>
+		   <th colspan="2" scope="col"> </th>
+		   <th colspan="6" scope="col">Potential Suppliers</th>
+		  </tr>
+		 </thead>
+		 <tbody>
+		  <tr class="table-info">
+		   <td colspan="2"> </td>
+		   <td colspan="2">Weston's</td>
+		   <td colspan="2">Dempster's</td>
+		   <td colspan="2">Cathy's</td>
+		  </tr>
+		  <tr>
+		   <td>Performance Dimension</td>
+		   <td>Weight</td>
+		   <td>Score</td>
+		   <td>Weight x Score</td>
+		   <td>Score</td>
+		   <td>Weight x Score</td>
+		   <td>Score</td>
+		   <td>Weight x Score</td>
+		  </tr>
+		  <tr>
+		   <td>Price</td>
+		   <td>0.5</td>
+		   <td>5</td>
+		   <td class="red-text">2.5</td>
+		   <td>3</td>
+		   <td class="red-text">1.5</td>
+		   <td>2</td>
+		   <td class="red-text">1.0</td>
+		  </tr>
+		  <tr>
+		   <td>Quality</td>
+		   <td>0.3</td>
+		   <td>2</td>
+		   <td class="red-text">0.6</td>
+		   <td>5</td>
+		   <td class="red-text">1.5</td>
+		   <td>3</td>
+		   <td class="red-text">0.9</td>
+		  </tr>
+		  <tr>
+		   <td>Driver Reliability</td>
+		   <td>0.2</td>
+		   <td>1</td>
+		   <td class="red-text">0.2</td>
+		   <td>4</td>
+		   <td class="red-text">0.8</td>
+		   <td>3</td>
+		   <td class="red-text">0.6</td>
+		  </tr>
+		  <tr>
+		   <td colspan="2">Total</td>
+		   <td> </td>
+		   <td class="red-text"><strong>3.3</strong></td>
+		   <td> </td>
+		   <td class="red-text"><strong>3.8</strong></td>
+		   <td> </td>
+		   <td class="red-text"><strong>2.5</strong></td>
+		  </tr>
+		 </tbody>
+		</table>
+		
+		<div class="clearfix"></div>
+
+			<div class="row justify-content-center mt-5">
+				<div class="col-sm-4">
+					<!--Rotating card-->
+					<div class="card-wrapper">
+					    <div id="card-1" class="card-rotating effect__click">
+					
+					        <!--Front Side-->
+					        <div class="face front">
+					
+					            <!-- Image-->
+					            <div class="card-up">
+					                <img src="images/pie.png" class="img-fluid">
+					            </div>
+					            <!--Content-->
+					            <div class="card-body">
+					                <h4 class="text-accent-2">Whom would you select as our pie shell supplier?</h4>
+					                <!--Triggering button-->
+					                <a class="rotate-btn" data-card="card-1"><i class="fa fa-repeat"></i> Click here to rotate</a>
+					            </div>
+					        </div>
+					        <!--/.Front Side-->
+					
+					        <!--Back Side-->
+					        <div class="face back">
+					
+					            <!--Content-->
+					            <h4 class="pt-5">Whom would you select as our pie shell supplier?</h4>
+					            <hr>
+					            <p>I hope you picked Dempster's, as they have the highest score.</p>
+					            <hr>
+					            <!--Triggering button-->
+					            <a class="rotate-btn" data-card="card-1"><i class="fa fa-undo"></i> Click here to rotate back</a>
+					
+					        </div>
+					        <!--/.Back Side-->
+					
+					    </div>
+					</div>
+					<!--/.Rotating card-->					
+				</div>
+				
+			</div>
+			
+
+		</div>
+		<!--/ Main container-->
+		
+		<!--Footer-->
+
+		<footer class="page-footer center-on-small-only grey lighten-2">
+			<!--Copyright-->
+
+			<div class="footer-copyright black-text">
+				<div class="container-fluid">
+					© 2017 Copyright <a class="black-text" href="https://www.conestogac.on.ca">Conestoga College</a>
+				</div>
+			</div>
+			<!--/.Copyright-->
+		</footer>
+		
+		<!--/.Footer-->
+		
+		<!-- SCRIPTS -->
+		<!-- JQuery -->
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript">
+		</script> <!-- Bootstrap dropdown -->
+		 
+		<script src="../js/popper.min.js" type="text/javascript">
+		</script> <!-- Bootstrap core JavaScript -->
+		 
+		<script src="../js/bootstrap.min.js" type="text/javascript">
+		</script> <!-- MDB core JavaScript -->
+		 
+		<script src="../js/mdb.min.js" type="text/javascript">
+		</script> <!-- Animations init-->
+		 
+		<script>
+		      new WOW().init();
+		</script>
+		
+		<script type="text/javascript" async
+			src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+
+		<!-- Open All Close All -->
+		
+		<script>
+			$('.closeall').click(function(){
+		  $('.collapse.show')
+		    .collapse('hide');
+		});
+		$('.openall').click(function(){
+		  $('.collapse:not(".show")')
+		    .collapse('show');
+		});
+		</script>
+		
+	</body>
+</html>
