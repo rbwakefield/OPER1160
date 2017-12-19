@@ -1,0 +1,28 @@
+{
+  "Questions": [
+    {
+      "Title": "Question 1",
+      "Text": "<p>Youhear someone comment that <em>any</em> inventory is a sign of waste. Do you agree or disagree? Can managers simultaneously justify holding inventories and still seek out ways to lower inventory levels?</p>\r\n",
+      "MinCharacters": 25,
+      "Answer": "<p>It is not true that any inventory is a sign of waste because companies need to have some inventory so goods are available to customers when they want/need them.  Do you want to arrive at a hospital, needing blood, only to hear that the hospital has implemented a “zero inventory” policy? That said, there does need to be a balance between ensuring demand is met and holding inventory. Holding too much inventory ties up capital, and companies lose flexibility in the chain.  Managers need to make the customers happy by having goods in stock, but they do not want to have so much inventory that it costs too much to hold.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Question 2",
+      "Text": "<p>Which of the following are independent demand inventory items? Dependent demand inventory items? <ol><li>Bicycles in a toy store</li><li>Bicycle wheels in a bicycle factory</li><li>Blood in a blood bank</li><li>Hamburgers at a fast-food restaurant</li><li>Hamburger buns at a plant that produces frozen dinners</li></p>\r\n",
+      "MinCharacters": 25,
+      "Answer": "<p>. Independent demand inventory are items whose demand is determined by outside parties (typically the final customer).  Examples include items A, C, and D in the list.  Dependent demand inventory is under “complete control” of the company because the demand level is directly tied to the planned production of another item.  Items B and E are good examples of demand dependent items—how many bicycle wheels or hamburger buns are needed depends completely on how many bicycles or hambergers are produced.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Question 3",
+      "Text": "<p><em>(Use the EOQ and ROP formulas to answer this question)</em><br/>Which variables could you change if you wanted to reduce inventory costs in your organization? Which ones would you prefer to change? Why?</p>\r\n",
+      "MinCharacters": 25,
+      "Answer": "<p>According to the EOQ, lowering ordering cost would result in lower order quantities and hence lower inventory levels. With regard to the ROP formula, reducing variability in demand and/or lead times, as well as reducing average lead times, would result in lower safety stock levels.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    }
+  ]
+}

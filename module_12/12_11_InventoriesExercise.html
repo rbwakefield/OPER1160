@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="full-height" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+		<meta content="ie=edge" http-equiv="x-ua-compatible">
+		<title>Quality</title>
+		
+		<!-- Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Bootstrap core CSS -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Material Design Bootstrap -->
+		<link href="../css/mdb.min.css" rel="stylesheet">
+		
+		<!-- Custom Style -->
+		<link href="../css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<!-- Main container-->
+		
+		<div class="col-sm-12 core-1 module4-header">
+			<h1>Managing Inventory</h1>
+		</div>
+
+		<div class="container">
+			
+			<h2 class="text-core-3">Exercise: Inventories vary depending on their usage</h2>
+			
+			<p class="lead">Imagine we have two separate divisions of a company with two very different requirements for inventories.</p>
+
+			<p>Read these descriptions then jot down three characteristics for each of the two companies’ inventories.</p>
+
+			<h3 class="text-core-4">GM HD Truck – Manufacturing</h3>
+			
+			<p>GM manufactures new model HD trucks at a rate of 2,000 per day at its one factory.  The factory has approximately 59,000 different parts used each model year and the company works hard to keep inventory on the line at a minimum allowing it to keep 1-2 days stock onhand for larger components and approximately 10 days for smaller nuts, bolts, wiring harnesses, etc.  These trucks are all ordered by dealers before they are manufactured on the line.</p>
+			
+			<h3 class="text-core-4">GM Parts Distribution Centre (PDC)- Woodstock</h3>
+			
+			<p>GM has approximately 1,000,000 different part numbers they track to help service vehicles.  They can supply dealerships through its vast network of PDCs throughout North America.</p> 
+			
+			<p>The GM PDC in Woodstock carries approximately 350,000 different part numbers and services Ontario dealers through a network of common and dedicated carriers.  In addition, they use rail, truck and air to ship to smaller PDCs across Canada.  Their focus is to provide service parts—parts to repair vehicles, of all ages, of all GM makes and models and model years, to GM dealerships.  Inventory turns for Woodstock warehouse would be approximately 3Xs per year.</p>
+
+	        <a href="#answer2" data-toggle="collapse">
+		        <!--Card Primary-->
+		        <div class="card core-1 z-depth-1-half">
+		            <div class="card-body">
+		                <h4 class="white-text mb-0">Possible Answers</h4>
+		            </div>
+		        </div>
+		        <!--/.Card Primary-->
+		    </a>
+	
+			<div id="answer2" class="col-12 cyan lighten-4 p-3 collapse col-9" style="margin-top: -20px;">
+
+				<table class="table table-bordered table-striped white z-depth-1-half text-center" summary="Inventories Excercise" id="inventories">
+				 <thead class="core-4">
+				  <tr>
+				   <th scope="col" width="50%">GM HD Truck Manufacturing</th>
+				   <th scope="col">GM PDC</th>
+				  </tr>
+				 </thead>
+				 <tbody>
+				  <tr>
+				   <td>59,000 different part numbers for one year’s model of truck – current model only</td>
+				   <td>1m and 350,000 part numbers closeby as they cover many models, many years</td>
+				  </tr>
+				  <tr>
+				   <td>Can’t backorder or runout or line will stop</td>
+				   <td>Can transfer in, backorder parts as not liked but realistic</td>
+				  </tr>
+				  <tr>
+				   <td>Turns are high…if manufacturing is 250 days per year and 1-2 days of stock, turns are 125 – 250 times per year for main components and 25 turns (10 days) for smaller stock</td>
+				   <td>Turns on the overall stock is 3xs per year but there will be various categories (ABC) that turn at different rates</td>
+				  </tr>
+				  <tr>
+				   <td>Calculated from orders from dealers therefore Dependent Demand</td>
+				   <td>Forecasting, therefore Independent demand as not sure when a vehicle will fail or when a part will be ordered</td>
+				  </tr>
+				 </tbody>
+				</table>
+				
+			</div>
+			
+			<p>It is interesting how different companies, even company divisions, have different needs and therefore, different uses of inventories.</p>
+						
+
+		</div>
+		<!--/ Main container-->
+		
+		<!--Footer-->
+
+		<footer class="page-footer center-on-small-only grey lighten-2">
+			<!--Copyright-->
+
+			<div class="footer-copyright black-text">
+				<div class="container-fluid">
+					© 2017 Copyright <a class="black-text" href="https://www.conestogac.on.ca">Conestoga College</a>
+				</div>
+			</div>
+			<!--/.Copyright-->
+		</footer>
+		
+		<!--/.Footer-->
+		
+		<!-- SCRIPTS -->
+		<!-- JQuery -->
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript">
+		</script> <!-- Bootstrap dropdown -->
+		 
+		<script src="../js/popper.min.js" type="text/javascript">
+		</script> <!-- Bootstrap core JavaScript -->
+		 
+		<script src="../js/bootstrap.min.js" type="text/javascript">
+		</script> <!-- MDB core JavaScript -->
+		 
+		<script src="../js/mdb.min.js" type="text/javascript">
+		</script>
+		
+		<!-- Animations init-->
+		 
+		<script>
+		      new WOW().init();
+		</script>
+
+		<!-- Open All Close All -->
+		
+		<script>
+			$('.closeall').click(function(){
+		  $('.collapse.show')
+		    .collapse('hide');
+		});
+		$('.openall').click(function(){
+		  $('.collapse:not(".show")')
+		    .collapse('show');
+		});
+		</script>
+		
+	</body>
+</html>

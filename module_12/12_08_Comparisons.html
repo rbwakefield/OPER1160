@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="full-height" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+		<meta content="ie=edge" http-equiv="x-ua-compatible">
+		<title>Quality</title>
+		
+		<!-- Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Bootstrap core CSS -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Material Design Bootstrap -->
+		<link href="../css/mdb.min.css" rel="stylesheet">
+		
+		<!-- Custom Style -->
+		<link href="../css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<!-- Main container-->
+		
+		<div class="col-sm-12 core-1 module4-header">
+			<h1>Managing Inventory</h1>
+		</div>
+
+		<div class="container">
+			
+			<h2 class="text-core-3">Comparison of Periodic and Continuous Review Systems</h2>
+
+			<table class="table table-bordered table-striped table-hover z-depth-1-half text-center" summary="Comparison of Periodic and Continuous Review Systems" id="comparisons">
+			 <thead class="accent-2 white-text">
+			  <tr>
+			   <th scope="col">Periodic Review</th>
+			   <th scope="col">Continuous Review</th>
+			  </tr>
+			 </thead>
+			 <tbody>
+			  <tr>
+			   <td>fixed order intervals (eg. Every 3 days)</td>
+			   <td>ordered when stock falls to reorder point – varying order intervals</td>
+			  </tr>
+			  <tr>
+			   <td>variable order size – replenish to restocking level</td>
+			   <td>fixed order sizes (Q)</td>
+			  </tr>
+			  <tr>
+			   <td>not reviewed often – convenient</td>
+			   <td>reviewed continuously</td>
+			  </tr>
+			  <tr>
+			   <td>inventory onhand quantity known only when reviewed</td>
+			   <td>inventory onhand quantity is always known</td>
+			  </tr>
+			 </tbody>
+			</table>
+
+		<h3 class="text-core-4 mt-4">Importance of carrying the right amount of inventory</h3>
+		
+		<p>It is important to carry the right amount of inventory.  Too much, the company will incur additional holding costs such as insurance, rent on too much space, obsolescence, interest on the money borrowed, security, etc.</p>
+		
+		<p>Too little, they might have to order more often than usual and ordering costs add up.</p>  
+		
+		<p>Plus, the third thing managers are always juggling is Customer Satisfaction.  If you don’t have the stock on hand when demanded, customers might be upset or even go elsewhere and the company will lose the sale.  The company might also spend extra time and resources to track down the piece somewhere else and expedite it in.</p>
+		
+		<p>So, having the right amount of inventory at the right time is important!</p>
+
+        <!--Card Primary-->
+        <div class="card accent-1 text-center z-depth-2">
+            <div class="card-body">
+                <p class="white-text mb-0"><i class="fa fa-exclamation-triangle mr-1 fa-lg" aria-hidden="true"></i><strong>Note</strong>:  In a service company you don’t have the option of building inventory, so you need to have excess capacity or personnel available to meet customer requirements.  There is a cost to excess capacity or excess inventory that impacts profitability.</p>
+            </div>
+        </div>
+        <!--/.Card Primary-->
+
+
+			<h3 class="text-core-4">Economic Order Quantity – amount to order each time</h3>
+			
+			<p>In a continuous review system, the amount to order each time is calculated in advance and remains the same amount each time.  Remember the yellow lines in the <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=175124&amp;type=content&amp;rcode=Conestoga-1401882" target="_blank">Continuous Review System Scenarios</a> diagram?</p>
+			
+			<p>This Economic Order Quantity (EOQ) is a tradeoff between yearly holding costs and ordering costs.  If you hold less, you will order more often.  If you order fewer times but larger quantities, then your holding costs will be high.  So, the EOQ minimizes the holding costs and ordering costs for an item.  For more explanation on deriving the EOQ formula:</p>
+			
+			<ul class="fa-ul checklist">
+				<li><i class="fa-li fa fa-caret-right"></i>read “The Economic Order Quantity (EOQ)” in your text and</li>
+				<li><i class="fa-li fa fa-caret-right"></i>watch <a href="https://www.youtube.com/watch?v=iRVK5fqD81w" target="_blank">this video <i class="fa fa-play-circle" aria-hidden="true"></i></a>. Video: Calculating EOQ - Economic Order Quantity (Inventory Costs & Purchasing Costs) (10:15), 2013</li>
+				<li><i class="fa-li fa fa-caret-right"></i>view <a href="https://www.thebalance.com/order-and-setup-costs-2221380" target="_blank">this link <i class="fa fa-external-link" aria-hidden="true"></i></a> that describes the various ordering costs</li>
+			</ul>
+			
+			<p>We do need to know the following to calculate the EOQ quantity (Q):</p> 
+			
+			<ul class="fa-ul checklist">
+				<li><i class="fa-li fa fa-caret-right"></i>D – total demand for the year (units NOT sales revenue)</li>
+				<li><i class="fa-li fa fa-caret-right"></i>S – cost to place a single order</li>
+				<li><i class="fa-li fa fa-caret-right"></i>H – cost to hold one unit in inventory for a year</li>
+			</ul>
+			 
+			<p><em>Notice you don’t need to worry about the value of the item and the lead time is assumed to be constant.</em>  This equation does not take into consideration volume discounts or widely swinging customer demand.  It is not perfect but it is a solid indication of the quantity to order each time for cycle stock for independent demand items in a continuous review system.</p>
+
+			<div style="margin-top: -10px;">
+				<div class="col-sm-3">
+					<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+					 <semantics>
+					  <mrow>
+					   <mi mathvariant="italic">EOQ</mi>
+					   <mo stretchy="false">=</mo>
+					   <msup>
+					    <mi>Q</mi>
+					    <mi>x</mi>
+					   </msup>
+					   <mo stretchy="false">=</mo>
+					   <msqrt>
+					    <mfrac>
+					     <mrow>
+					      <mn>2</mn>
+					      <mi mathvariant="italic">DS</mi>
+					     </mrow>
+					     <mi>H</mi>
+					    </mfrac>
+					   </msqrt>
+					  </mrow>
+					  <annotation encoding="StarMath 5.0">EOQ = Q^{x} = sqrt{ {2DS} over {H} } </annotation>
+					 </semantics>
+					</math>					
+				</div>
+			</div>
+			
+			<p><em>Notice you don’t need to worry about the value of the item and the lead time is assumed to be constant.</em>  This equation does not take into consideration volume discounts or widely swinging customer demand.  It is not perfect but it is a solid indication of the quantity to order each time for cycle stock for independent demand items in a continuous review system.</p>
+			
+			<div class="row">
+				<div class="col-sm-5">
+					<p>Notice that in Figure 1 the total cost does not vary that much when in close proximity to the lowest total cost or EOQ. The EOQ is therefore a great place to start when choosing quantities for ordering. There are often many other factors (Ex: carton or skid load quantities) which may result in the actual quantity ordered being close to but not matching exactly the EOQ.</p>
+					
+		        <!--Card Primary-->
+		        <div class="card core-4 text-center z-depth-2">
+		            <div class="card-body">
+		                <p class="white-text mb-0"><strong>Example</strong>:  Kevin has an internet company that sells chocolates.  He sells 100,000 truffles per year.  The annual holding cost per unit is $3 and the cost to place an order is $75.  What is the economic order quantity?</p>
+		            </div>
+		        </div>
+		        <!--/.Card Primary-->
+        					
+				</div>
+				<div class="col-sm-7">
+					<a href="images/EOQCostsGraph.png" target="_blank"><div class="view overlay hm-black-strong">
+						<img src="images/EOQCostsGraph.png" alt="" class="img-fluid img-thumbnail z-depth-1-half" />
+							<div class="mask flex-center">
+							<p class="white-text">Click for a larger version</p>
+		    				</div>
+						</div></a>
+					<p class="small text-secondary mt-2">Figure 1. EOQ costs graph – Source: Supplychaindetective</p>
+				</div>
+			</div>
+			
+			<div class="clearfix"></div>
+			
+			<div style="margin-top: -10px;">
+				<div class="col-sm-3">
+					<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+					 <semantics>
+					  <mrow>
+					   <mi mathvariant="italic">EOQ</mi>
+					   <mo stretchy="false">=</mo>
+					   <msqrt>
+					    <mfrac>
+					     <mrow>
+					      <mn>2</mn>
+					      <mi mathvariant="italic">DS</mi>
+					     </mrow>
+					     <mi>H</mi>
+					    </mfrac>
+					   </msqrt>
+					   <mo stretchy="false">=</mo>
+					   <msqrt>
+					    <mfrac>
+					     <mrow>
+					      <mn>2</mn>
+					      <mrow>
+					       <mo fence="true" stretchy="false">(</mo>
+					       <mrow>
+					        <mn>100,00</mn>
+					       </mrow>
+					       <mo fence="true" stretchy="false">)</mo>
+					      </mrow>
+					      <mn>75</mn>
+					     </mrow>
+					     <mn>3</mn>
+					    </mfrac>
+					   </msqrt>
+					  </mrow>
+					  <annotation encoding="StarMath 5.0">EOQ = sqrt{ {2DS} over {H} } = sqrt{ {2 (100,00) 75} over {3} }</annotation>
+					 </semantics>
+					</math>				
+				</div>
+			</div>
+			
+			<div class="clearfix"></div>
+			
+			<p><span class="mr-5">= 2,236</span> Therefore, 2,236 is the quantity to order each time.</p>
+
+		        <!--Card Primary-->
+		        <div class="card accent-2 z-depth-2">
+		            <div class="card-body">
+		                <p class="white-text mb-0"><i class="fa fa-exclamation-triangle fa-lg mr-1" aria-hidden="true"></i> <strong>Note</strong>:  If the demand doubles, the EOQ amount does NOT double….it goes up by the square root of 2…double demand would mean 3,162 units should be ordered.</p>
+		            </div>
+		        </div>
+		        <!--/.Card Primary-->
+
+		</div>
+		<!--/ Main container-->
+		
+		<!--Footer-->
+
+		<footer class="page-footer center-on-small-only grey lighten-2">
+			<!--Copyright-->
+
+			<div class="footer-copyright black-text">
+				<div class="container-fluid">
+					© 2017 Copyright <a class="black-text" href="https://www.conestogac.on.ca">Conestoga College</a>
+				</div>
+			</div>
+			<!--/.Copyright-->
+		</footer>
+		
+		<!--/.Footer-->
+		
+		<!-- SCRIPTS -->
+		<!-- JQuery -->
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript">
+		</script> <!-- Bootstrap dropdown -->
+		 
+		<script src="../js/popper.min.js" type="text/javascript">
+		</script> <!-- Bootstrap core JavaScript -->
+		 
+		<script src="../js/bootstrap.min.js" type="text/javascript">
+		</script> <!-- MDB core JavaScript -->
+		 
+		<script src="../js/mdb.min.js" type="text/javascript">
+		</script>
+		
+		<script type="text/javascript" async
+			src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+
+		
+		<!-- Animations init-->
+		 
+		<script>
+		      new WOW().init();
+		</script>
+
+		<!-- Open All Close All -->
+		
+		<script>
+			$('.closeall').click(function(){
+		  $('.collapse.show')
+		    .collapse('hide');
+		});
+		$('.openall').click(function(){
+		  $('.collapse:not(".show")')
+		    .collapse('show');
+		});
+		</script>
+		
+	</body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html class="full-height" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+		<meta content="ie=edge" http-equiv="x-ua-compatible">
+		<title>Quality</title>
+		
+		<!-- Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Bootstrap core CSS -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Material Design Bootstrap -->
+		<link href="../css/mdb.min.css" rel="stylesheet">
+		
+		<!-- Custom Style -->
+		<link href="../css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<!-- Main container-->
+		
+		<div class="col-sm-12 core-1 module4-header">
+			<h1>Managing Inventory</h1>
+		</div>
+
+		<div class="container">
+			
+			<h2 class="text-core-3">Inventory Turnover & Weeks Supply</h2>
+
+			<p class="lead">Now that we have examined different reasons for maintaining inventory, we need to look at the main metrics to measure the performance of this expensive investment—inventory turnover and weeks supply.</p>
+			
+			<h3 class="text-core-4">Inventory Turnover</h3>
+			
+			<p>We examine how many times our inventory investment is used over the period of a year.  It will depend on the usage of the inventory and the type of business.</p>
+			
+			<h4 class="text-core-2">Examples of Annual Inventory Turnover rates</h4>
+			
+			<div style="margin-top: -10px;margin-left: -60px;">
+				<div class="col-sm-6">
+					<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+					 <semantics>
+					  <mrow>
+					   <mi mathvariant="italic">Inventory</mi>
+					   <mrow>
+					    <mi mathvariant="italic">turns</mi>
+					    <mo stretchy="false">=</mo>
+					    <mrow>
+					     <mo fence="true" stretchy="true">(</mo>
+					     <mrow>
+					      <mfrac>
+					       <mrow>
+					        <mi mathvariant="italic">Cost</mi>
+					        <mi mathvariant="italic">of</mi>
+					        <mi mathvariant="italic">goods</mi>
+					        <mi mathvariant="italic">sold</mi>
+					       </mrow>
+					       <mrow>
+					        <mi mathvariant="italic">Inventory</mi>
+					        <mi mathvariant="italic">investment</mi>
+					       </mrow>
+					      </mfrac>
+					     </mrow>
+					     <mo fence="true" stretchy="true">)</mo>
+					    </mrow>
+					   </mrow>
+					  </mrow>
+					  <annotation encoding="StarMath 5.0">Inventory turns = left ( {Cost of goods sold} over {Inventory investment} right ) </annotation>
+					 </semantics>
+					</math>					
+				</div>
+			</div>
+			
+			<h5 class="text-accent-1">Examples of Annual Inventory Turnover rates</h5>
+
+			<dl class="row">
+				<dt class="col-sm-3">Fresh Produce</dt>
+				<dd class="col-sm-9">104 Xs (twice a week average)</dd>
+				
+				<dt class="col-sm-3">Hardware Store</dt>
+				<dd class="col-sm-9">5 Xs</dd>
+				
+				<dt class="col-sm-3">Car Manufacturer</dt>
+				<dd class="col-sm-9">150 Xs</dd>
+			</dl>
+
+
+			<h3 class="text-core-4">Weeks of Supply</h3>
+			
+			<p>With this measurement we look at inventory usage by looking at how many weeks of supply we have on hand.</p>
+			
+			<p><strong>Weeks of supply = Inventory investment / average weekly Cost of Goods Sold (COGS)</strong></p>
+			
+			<p><strong>OR</strong>  Weeks of supply = 52 weeks / Inventory turns</p>
+
+			<!--Card Primary-->
+			<div class="card accent-2 text-center z-depth-2">
+			    <div class="card-body">
+			        <p class="white-text mb-0"><i class="fa fa-exclamation-triangle fa-lg" aria-hidden="true"></i> <strong>Note</strong>: If not stated, use 52 weeks.  Sometimes, due to shutdowns or holidays, weeks may be less.<br/>May also be expressed as Days of supply = 365 days / Inventory turns.</p>
+			    </div>
+			</div>
+			<!--/.Card Primary-->
+			
+			<h3 class="text-core-4">Calculation Excercise</h3>
+			
+					<dl class="row">
+					  <dt class="col-sm-3">Net revenue</dt>
+					  <dd class="col-sm-9">$32.5m</dd>
+					
+					  <dt class="col-sm-3">Cost of goods sold</dt>
+					  <dd class="col-sm-9">$14.2m</dd>
+					
+					  <dt class="col-sm-3">Inventory:</dt>
+					  <dd class="col-sm-9">Raw material: $0.74m</dd>
+					  <dd class="col-sm-9 offset-sm-3">WIP inventory  $.11m</dd>
+					  <dd class="col-sm-9 offset-sm-3">Finished goods $.84m</dd>
+					
+					  <dt class="col-sm-3">Total inventory</dt>
+					  <dd class="col-sm-9">$1.69m</dd>
+					</dl>
+					
+					<hr/>
+					
+					
+					<dl class="row">
+					  <dt class="col-sm-3">Inventory turnover</dt>
+					  <dd class="col-sm-9">= COGS / Inventory investment</dd>
+					  <dd class="col-sm-9 offset-sm-3">= 14.2 / 1.69 = 8.4 turns/year</dd>
+					
+					  <dt class="col-sm-3">Weeks of supply</dt>
+					  <dd class="col-sm-9">= inventory investment / average weekly COGS</dd>
+					  <dd class="col-sm-9 offset-sm-3">= 1.69 / ($14.2 / 52) = 1.69 / .273 = 6.19 weeks of supply</dd>
+					
+					  <dt class="col-sm-3"><strong>OR</strong></dt>
+					  <dd class="col-sm-9"> </dd>
+					
+					  <dt class="col-sm-3">Weeks of supply</dt>
+					  <dd class="col-sm-9">= 52 weeks / (turns/year)</dd>
+					  <dd class="col-sm-9 offset-sm-3">= 52 / 8.4 = 6.19 weeks of supply</dd>
+					</dl>
+					
+			
+			<p>If you wanted to see Days of Supply = 365 / 8.4 turns = 43.34 days of supply.</p>
+
+			<h3 class="text-core-4">Inventory Turns and Weeks Supply are related</h3>
+
+			<p>It is important to realize that these two calculations are used on an ongoing basis by inventory managers and they are both measuring the rate of usage of the inventory.</p>
+
+			<p>52 turns per year… means about 1 week of stock is on hand.</p>
+
+			<p>12 turns per year… means there is about 4 weeks of supply on hand.</p>
+			
+			<h4 class="text-core-2">Your Turn…</h4>
+			
+			<p>1) Calculate the Inventory Turns and Weeks of Supply for:</p>
+			
+			<dl class="row">
+			  <dt class="col-sm-3">Net Revenue</dt>
+			  <dd class="col-sm-9">$100m</dd>
+			
+			  <dt class="col-sm-3">Cost of Goods Sold</dt>
+			  <dd class="col-sm-9">$70m</dd>
+			
+			  <dt class="col-sm-3">Inventory</dt>
+			  <dd class="col-sm-9">$4.5m</dd>
+			
+			</dl>
+
+				<div class="row mb-4">
+					<div class="col-3">
+						<a href="#answer1" type="button" class="btn btn-primary ml-0" data-toggle="collapse">Check Your Answer</a>
+					</div>
+					<div id="answer1" class="collapse col-9">
+						<dl class="row">
+				  <dt class="col-sm-3">Inventory turns</dt>
+				  <dd class="col-sm-9">COGS / Inventory investment = $70 / 4.5 = 15.55 times</dd>
+				
+				  <dt class="col-sm-3">Weeks of Supply</dt>
+				  <dd class="col-sm-9">= inventory investment / average weekly COGS</dd>
+				  <dd class="col-sm-9 offset-sm-3">=$4.5/ ($70/52 weeks) = 3.34 weeks of supply</dd>
+				
+				</dl>
+				</div>
+			</div>
+
+			<p>2) A company has annual sales of $100,000 with a COGS of 60%.  They operate for ONLY 50 weeks a year.  They usually have $5,000 worth of inventory on hand at any time.  What are the Inventory Turns?  What is the Weeks of Supply?</p>
+			
+				<div class="row mb-4">
+					<div class="col-3">
+						<a href="#answer2" type="button" class="btn btn-primary ml-0" data-toggle="collapse">Check Your Answer</a>
+					</div>
+					<div id="answer2" class="collapse col-9">
+						<dl class="row">
+				  <dt class="col-sm-3">Inventory turns</dt>
+				  <dd class="col-sm-9">= COGS / Inventory investment = ($100,000 x 60%) / $5,000</dd>
+				  <dd class="col-sm-9 offset-sm-3">= $60,000 / $5,000 = 12 <span class="ml-4">12 turns per year</span></dd>
+				
+				  <dt class="col-sm-3">Weeks of Supply</dt>
+				  <dd class="col-sm-9">= inventory investment / average weekly COGS</dd>
+				  <dd class="col-sm-9 offset-sm-3">= $5,000 / ($60,000/50) = 4.167 weeks</dd>
+				
+				</dl>
+				</div>
+			</div>
+
+			<h4 class="text-core-2 mb-3">How about these ones?</h4>
+			
+			<div class="row">
+				<div class="col-sm-4" style="max-height: 200px;">
+					<!--Rotating card-->
+					<div class="card-wrapper">
+					    <div id="card-1" class="card-rotating effect__click">
+					
+					        <!--Front Side-->
+					        <div class="face front" style="max-height: 200px;">
+					
+					            <!--Content-->
+					            <div class="card-body">
+					                <p>Have 6 months of stock…how many turns /year?</p>
+					                <!--Triggering button-->
+					                <a class="rotate-btn" data-card="card-1"><i class="fa fa-repeat mr-1"></i> Check your answer</a>
+					            </div>
+					        </div>
+					        <!--/.Front Side-->
+					
+					        <!--Back Side-->
+					        <div class="face back" style="max-height: 200px;">
+					
+					            <!--Content-->
+					            <h4 class="pt-1">Answer</h4>
+					            <hr>
+					            <p>2 turns / year</p>
+					            <!--Triggering button-->
+					            <a class="rotate-btn" data-card="card-1"><i class="fa fa-undo"></i> Click here to rotate back</a>
+					
+					        </div>
+					        <!--/.Back Side-->
+					
+					    </div>
+					</div>
+					<!--/.Rotating card-->					
+				</div>
+
+				<div class="col-sm-4" style="max-height: 200px;">
+					<!--Rotating card-->
+					<div class="card-wrapper">
+					    <div id="card-2" class="card-rotating effect__click">
+					
+					        <!--Front Side-->
+					        <div class="face front" style="max-height: 200px;">
+					
+					            <!--Content-->
+					            <div class="card-body">
+					                <p>Have 7 days of stock….how many turns/year?</p>
+					                <!--Triggering button-->
+					                <a class="rotate-btn" data-card="card-2"><i class="fa fa-repeat mr-1"></i> Check your answer</a>
+					            </div>
+					        </div>
+					        <!--/.Front Side-->
+					
+					        <!--Back Side-->
+					        <div class="face back" style="max-height: 200px;">
+					
+					            <!--Content-->
+					            <h4 class="pt-1">Answer</h4>
+					            <hr>
+					            <p>52 turns/ year – about 1 week of stock on hand</p>
+					            <!--Triggering button-->
+					            <a class="rotate-btn" data-card="card-2"><i class="fa fa-undo"></i> Click here to rotate back</a>
+					
+					        </div>
+					        <!--/.Back Side-->
+					
+					    </div>
+					</div>
+					<!--/.Rotating card-->					
+				</div>
+				<div class="col-sm-4" style="max-height: 200px;">
+					<!--Rotating card-->
+					<div class="card-wrapper">
+					    <div id="card-3" class="card-rotating effect__click">
+					
+					        <!--Front Side-->
+					        <div class="face front" style="max-height: 200px;">
+					
+					            <!--Content-->
+					            <div class="card-body">
+					                <p>Have 1 month of stock …. How many turns/year?</p>
+					                <!--Triggering button-->
+					                <a class="rotate-btn" data-card="card-3"><i class="fa fa-repeat mr-1"></i> Check your answer</a>
+					            </div>
+					        </div>
+					        <!--/.Front Side-->
+					
+					        <!--Back Side-->
+					        <div class="face back" style="max-height: 200px;">
+					
+					            <!--Content-->
+					            <h4 class="pt-1">Answer</h4>
+					            <hr>
+					            <p>12 turns/year</p>
+					            <!--Triggering button-->
+					            <a class="rotate-btn" data-card="card-3"><i class="fa fa-undo"></i> Click here to rotate back</a>
+					
+					        </div>
+					        <!--/.Back Side-->
+					
+					    </div>
+					</div>
+					<!--/.Rotating card-->					
+				</div>
+
+			</div>
+			
+			<div class="clearfix"></div>
+
+
+		</div>
+		<!--/ Main container-->
+		
+		<!--Footer-->
+
+		<footer class="page-footer center-on-small-only grey lighten-2">
+			<!--Copyright-->
+
+			<div class="footer-copyright black-text">
+				<div class="container-fluid">
+					© 2017 Copyright <a class="black-text" href="https://www.conestogac.on.ca">Conestoga College</a>
+				</div>
+			</div>
+			<!--/.Copyright-->
+		</footer>
+		
+		<!--/.Footer-->
+		
+		<!-- SCRIPTS -->
+		<!-- JQuery -->
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript">
+		</script> <!-- Bootstrap dropdown -->
+		 
+		<script src="../js/popper.min.js" type="text/javascript">
+		</script> <!-- Bootstrap core JavaScript -->
+		 
+		<script src="../js/bootstrap.min.js" type="text/javascript">
+		</script> <!-- MDB core JavaScript -->
+		 
+		<script src="../js/mdb.min.js" type="text/javascript">
+		</script>
+		
+		<script type="text/javascript" async
+			src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+
+		
+		<!-- Animations init-->
+		 
+		<script>
+		      new WOW().init();
+		</script>
+
+		<!-- Open All Close All -->
+		
+		<script>
+			$('.closeall').click(function(){
+		  $('.collapse.show')
+		    .collapse('hide');
+		});
+		$('.openall').click(function(){
+		  $('.collapse:not(".show")')
+		    .collapse('show');
+		});
+		</script>
+		
+	</body>
+</html>

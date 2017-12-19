@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="full-height" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+		<meta content="ie=edge" http-equiv="x-ua-compatible">
+		<title>Quality</title>
+		
+		<!-- Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Bootstrap core CSS -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Material Design Bootstrap -->
+		<link href="../css/mdb.min.css" rel="stylesheet">
+		
+		<!-- Custom Style -->
+		<link href="../css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<!-- Main container-->
+		
+		<div class="col-sm-12 core-1 module4-header">
+			<h1>Managing Inventory</h1>
+		</div>
+
+		<div class="container">
+			
+			<h2 class="text-core-3">Drivers of Inventory</h2>
+
+			<div class="col-sm-5 float-right">
+				<img src="images/SupplyDemand.png" alt="Demand for products drives supply of product" class="img-fluid z-depth-1-half" />
+			</div>			
+			<p class="lead">The drivers of inventory or the reasons companies maintain inventories are:</p>
+			
+			<h3 class="text-core-4">Uncertainty in Demand or Supply</h3>
+			
+			<p><strong>Uncertainty of demand</strong> means we are not exactly sure when a customer will order stock.  This independent demand means a company wants to have inventory onhand or the customer may go elsewhere which means a “lost sale”.  Or, if the company expedites it they might pay extra.  Or, they might discount it, or deliver it , etc to appease the customer.</p>
+ 
+			<p><strong>Uncertainty of Supply</strong> means we keep stock as we are not sure of the reliability of the suppliers’ deliveries, or, if the price is about to rise and again, etc. we want to ensure the stock is on hand for our customers.  We would hold <strong>cycle stock</strong>, that little extra safety stock or <strong>hedging inventory</strong> to offset possible interruptions in supply or price increases.</p>
+
+			<h3 class="text-core-4">Mismatches in Demand and Process Volume</h3>
+			
+			<p>This inventory builds because the amount being sent is greater than the demand.  This is due to the item being sent in a set quantity but a different quantity is required.  If you need 2 bolts but they come in packages of 12, you would have 10 left in inventory.  This <strong>cycle stock</strong> is the most common reason for inventory.</p>
+			
+			<h3 class="text-core-4">Mismatches in Demand and Capacity</h3>
+			
+			<p>This inventory builds because the amount being produced is different than the demand.  Remember the <strong>Smoothing Inventory</strong>. Inventory is built up when the production is higher than what is produced.</p>
+
+			<h3 class="text-core-4">Mismatches in Demand and Process Lead-time</h3>
+
+			<p>When we go to the store, we expect items to be on hand but inventory might be coming from any of a number of suppliers or locations.  Companies need to forecast what you’ll demand and determine what to order.  For instance, they’ll order in <strong>anticipation inventory</strong> of Christmas trees as they forecast they will need them for December sales.  If stock is ordered but still on its way it is <strong>transportation stock</strong>.</p> 
+
+			<h3 class="text-core-4">Independent vs dependent demand for stock</h3>
+
+			<p><strong>Independent demand</strong> is for finished goods or service parts and it is unpredictable in timing and quantity.  It is forecasted and we might carry cycle, safety and anticipation inventory to help inventory stockouts.</p>
+			
+			<p><strong>Dependent demand</strong> is tied to production.  If we are building a four-legged table and we know we are building 40 tables, we could calculate the dependent demand for 160 table legs.</p>
+
+
+		</div>
+		<!--/ Main container-->
+		
+		<!--Footer-->
+
+		<footer class="page-footer center-on-small-only grey lighten-2">
+			<!--Copyright-->
+
+			<div class="footer-copyright black-text">
+				<div class="container-fluid">
+					© 2017 Copyright <a class="black-text" href="https://www.conestogac.on.ca">Conestoga College</a>
+				</div>
+			</div>
+			<!--/.Copyright-->
+		</footer>
+		
+		<!--/.Footer-->
+		
+		<!-- SCRIPTS -->
+		<!-- JQuery -->
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript">
+		</script> <!-- Bootstrap dropdown -->
+		 
+		<script src="../js/popper.min.js" type="text/javascript">
+		</script> <!-- Bootstrap core JavaScript -->
+		 
+		<script src="../js/bootstrap.min.js" type="text/javascript">
+		</script> <!-- MDB core JavaScript -->
+		 
+		<script src="../js/mdb.min.js" type="text/javascript">
+		</script> <!-- Animations init-->
+		 
+		<script>
+		      new WOW().init();
+		</script>
+
+		<!-- Open All Close All -->
+		
+		<script>
+			$('.closeall').click(function(){
+		  $('.collapse.show')
+		    .collapse('hide');
+		});
+		$('.openall').click(function(){
+		  $('.collapse:not(".show")')
+		    .collapse('show');
+		});
+		</script>
+		
+	</body>
+</html>

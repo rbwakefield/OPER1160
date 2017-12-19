@@ -1,0 +1,20 @@
+{
+  "Questions": [
+    {
+      "Title": "Question 1",
+      "Text": "<p>Why would the government have originally chosen to outsource the Payroll system to Phoenix? Hint:  check Tables 5.6 and 5.7 in your text for Advantages and disadvantages of insourcing and outsourcing and Factors that Affect the decision to insource or outsource</p>\r\n",
+      "MinCharacters": 25,
+      "Answer": "<p>a) allows strategic flexibility – the government can assign their internal staff to other projects and they aren’t locked into a long-term, large project.</p><p>b) access to state-of-the-art products and services --they went to experts rather than train internally – hoped to get a superior product</p><p>c) kept it in North America to be able to monitor the supplier’s performance</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    },
+    {
+      "Title": "Question 2",
+      "Text": "<p>What are the problems they face with this outsourcing decision?</p>\r\n",
+      "MinCharacters": 25,
+      "Answer": "<p>a) possibility of choosing a bad supplier</p><p>b) loss of control over the process and core technologies</p><p>c) communication/coordination problems</p><p>d) now paying to fix the mess that was created – $50m plus and a LOT of bad press and feelings.</p>",
+      "PrePopulated": "none",
+      "Placeholder": "Enter your answer here."
+    }
+  ]
+}

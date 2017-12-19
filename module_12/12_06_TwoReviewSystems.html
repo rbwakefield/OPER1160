@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html class="full-height" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+		<meta content="ie=edge" http-equiv="x-ua-compatible">
+		<title>Quality</title>
+		
+		<!-- Font Awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Bootstrap core CSS -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		
+		<!-- Material Design Bootstrap -->
+		<link href="../css/mdb.min.css" rel="stylesheet">
+		
+		<!-- Custom Style -->
+		<link href="../css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<!-- Main container-->
+		
+		<div class="col-sm-12 core-1 module4-header">
+			<h1>Managing Inventory</h1>
+		</div>
+
+		<div class="container">
+			
+			<h2 class="text-core-3">Two Review Systems</h2>
+
+			<p class="lead">Inventory must be monitored or reviewed and depending on the type of inventory and its usage, it might be done by a <strong>Periodic</strong> review system or a <strong>Continuous</strong> review system.</p>
+
+			<h3 class="text-core-4">Periodic</h3>
+			
+			<div class="row">
+				<div class="col">
+					<p>This is a simple approach for managing independent demand inventory.  See Figure 1 that shows a company will check the inventory at set periods of time and restock to a predetermined restocking level (R).</p> 
+					
+					<ul class="fa-ul checklist">
+						<li><i class="fa-li fa fa-asterisk text-accent-1"></i><strong>(R)</strong> is the restocking level</li>
+						<li><i class="fa-li fa fa-asterisk text-accent-1"></i><strong>(Q)</strong> is the quantity needed to bring back to that restocking level.</li>
+						<li><i class="fa-li fa fa-asterisk text-accent-1"></i><strong>(I)</strong> is the amount on hand at the time of review.</li>
+					</ul>
+					
+					<p>In the following example, the stock is checked every 2 weeks <strong>(I)</strong> and then the needed quantity <strong>(Q)</strong> is added to bring it up to the restocking level <strong>(R)</strong>.</p>
+				</div>
+				<div class="col">
+						<a href="images/PeriodicReviewSystem.png" target="_blank"><div class="view overlay hm-black-strong">
+						<img src="images/PeriodicReviewSystem.png" alt="" class="img-fluid img-thumbnail z-depth-1-half" />
+							<div class="mask flex-center">
+							<p class="white-text">Click for a larger version</p>
+		    				</div>
+						</div></a>
+					<p class="small text-secondary mt-2">Figure 1. Example of Periodic Review System. Adapted from Lopers et al., 2016, page 189</p>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+			
+	        <!--Card Primary-->
+	        <div class="card core-4 text-center z-depth-2">
+	            <div class="card-body">
+	                <h4 class="white-text mb-0">Q = R - I</h4>
+	            </div>
+	        </div>
+	        <!--/.Card Primary-->
+	        
+			<p>Notice how just after week 5, the company runs out of the cycle stock and it is not noted until week 6 when the stock is counted and replenished.  In this system, safety stock is included by raising the replenishment (R) level. This system is best suited when constantly monitoring this stock (usually low-value) makes no economic sense.  For this, it is okay to keep a large amount of stock and still possibly stock out.  Think of a vending machine or racks of chips.</p>
+
+	        <!--Card Primary-->
+	        <div class="card core-1 z-depth-2">
+	            <div class="card-body">
+	                <p class="white-text mb-0"><strong>Example</strong>:  The potato chip sales rep arrives.  He checks the dill pickle chips and sees you have room to stock (R) 24 bags and there are 6 bags (I) on the shelf.  What is the periodic quantity (Q) needed?</p>
+	                <hr class="white"/>
+	                <div class="row">
+	                	<div class="col-sm-2">
+	                		<h4 class="white-text mb-0">Q = R - I</h4>
+	                	</div>
+	                	<div class="col-sm-10  white-text">
+	                		<span class="mr-4t">Q = 24 – 6</span> Q = 18.  Therefore, he puts in 18 bags to bring it up to the replenishment level.
+	                	</div>
+	                </div>
+	            </div>
+	        </div>
+	        <!--/.Card Primary-->
+
+			<h3 class="text-core-4">Your Turn…</h3>
+			
+			<p>The vending machine owner arrives to find there are only 2 Kit Kat bars left and there can be 16 loaded in the row in the machine.  What is the periodic quantity needed?  Can maximum inventory levels vary?</p>
+
+			<div class="row mb-4">
+				<div class="col-3">
+					<a href="#answer1" type="button" class="btn btn-primary ml-0" data-toggle="collapse">Check Your Answer</a>
+				</div>
+				<div id="answer1" class="collapse col-9">
+					<p class="mt-3">Q=R-I  Q = 16 – 2 = 14</p>
+				</div>
+			</div>
+
+			<p>Can maximum inventory levels vary?</p>
+
+			<div class="row mb-4">
+				<div class="col-3">
+					<a href="#answer2" type="button" class="btn btn-primary ml-0" data-toggle="collapse">Check Your Answer</a>
+				</div>
+				<div id="answer2" class="collapse col-9">
+					<p class="mt-3">No, the limit is set.  Think of a vending machine with a set number of slots for each item.</p>
+				</div>
+			</div>
+
+			<h3 class="text-core-4">Continuous Review System</h3>
+			
+			<div class="row">
+				<div class="col">
+					<p>A Continuous Review System for independent demand items means the inventory is constantly tracked.  When the stock drops to a predetermined reorder point (R), a fixed order quantity (Q) is ordered.  The time period varies—it is ordered when the quantity on hand falls to the reorder point. See Figure 2 for the pattern with a constant demand rate (d).</p>
+					
+		        <!--Card Primary-->
+		        <div class="card accent-1 text-center z-depth-2">
+		            <div class="card-body">
+		                <h4 class="white-text">R = ddL + SS</h4>
+		                <h4 class="white-text mb-0">(R = Demand during LT + Safety Stock)</h4>
+		            </div>
+		        </div>
+		        <!--/.Card Primary-->
+        					
+				</div>
+				<div class="col">
+						<a href="images/ContinuousReviewSystem.png" target="_blank"><div class="view overlay hm-black-strong">
+						<img src="images/ContinuousReviewSystem.png" alt="" class="img-fluid img-thumbnail z-depth-1-half" />
+							<div class="mask flex-center">
+							<p class="white-text">Click for a larger version</p>
+		    				</div>
+						</div></a>
+					<p class="small text-secondary mt-2">Figure 2. Continuous Review System with constant demand. Adapted from Lopers et al., 2016, pg 191</p>
+				</div>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<p>The size of the replenishment order is calculated in advance based on EOQ with factors like predicted demand but also the costs to hold stock and place an order.  Shortly we will talk about EOQ (Economic Order Quantity).</p>
+			
+			<p>The other important factor is the Reorder Point and it is the demand during the leadtime plus safety stock.  R = ddL + SS.</p>
+			
+	        <!--Card Primary-->
+	        <div class="card core-1 z-depth-2">
+	            <div class="card-body">
+	                <p class="white-text mb-0"><strong>Example</strong>:  Demand (d) averages 100 staplers per week.  The supplier leadtime (L) is 2 weeks.  The safety stock (SS) is calculated at 20 staplers.  Calculate the reorder point.</p>
+	                <hr class="white"/>
+	                <div class="row">
+	                	<div class="col-sm-2">
+	                		<h4 class="white-text mb-0">Q = R - I</h4>
+	                	</div>
+	                	<div class="col-sm-10  white-text">
+	                		<span class="mr-4t">R = ddL + SS =</span> (100) (2) + 20 = 220    Therefore, when stock drops to 220 staplers, the company should reorder the predetermined amount (Q).
+	                	</div>
+	                </div>
+	            </div>
+	        </div>
+	        <!--/.Card Primary-->
+
+			<h3 class="text-core-4">Your Turn…</h3>
+			
+			<p>A specialty chocolate retailer sells 50 kgs of chocolate almond bark per day.  The Swiss supplier has a 10 day lead time.  The safety stock is 50 kgs of chocolate.  Calculate the reorder point.</p>
+
+			<div class="row mb-4">
+				<div class="col-3">
+					<a href="#answer3" type="button" class="btn btn-primary ml-0" data-toggle="collapse">Check Your Answer</a>
+				</div>
+				<div id="answer3" class="collapse col-9">
+					<p class="mt-3">R = ddL + SS = (50) (10) + 50 = 550   Therefore, when stock drops to 550 kgs, the retailer should reorder.</p>
+				</div>
+			</div>
+
+			<p>This specialty chocolate retailers sells 520 kgs of truffles per year.  There is a 2 week lead time.  The safety stock is 15 kgs of truffles.  Calculate the reorder point.</p>
+
+			<div class="row mb-4">
+				<div class="col-3">
+					<a href="#answer4" type="button" class="btn btn-primary ml-0" data-toggle="collapse">Check Your Answer</a>
+				</div>
+				<div id="answer4" class="collapse col-9">
+					<p class="mt-3">R = ddL + SS = (520/52 weeks) (2) + 15 = 20 + 15 = 35 kgs.   When it reaches 35 kgs, reorder.
+Note:  Always make sure the demand is in the same time frame as the leadtime.  That is why we converted the yearly sales to a weekly sales amount. (520/52).</p>
+				</div>
+			</div>
+			
+
+		</div>
+		<!--/ Main container-->
+		
+		<!--Footer-->
+
+		<footer class="page-footer center-on-small-only grey lighten-2">
+			<!--Copyright-->
+
+			<div class="footer-copyright black-text">
+				<div class="container-fluid">
+					© 2017 Copyright <a class="black-text" href="https://www.conestogac.on.ca">Conestoga College</a>
+				</div>
+			</div>
+			<!--/.Copyright-->
+		</footer>
+		
+		<!--/.Footer-->
+		
+		<!-- SCRIPTS -->
+		<!-- JQuery -->
+		<script src="../js/jquery-3.1.1.min.js" type="text/javascript">
+		</script> <!-- Bootstrap dropdown -->
+		 
+		<script src="../js/popper.min.js" type="text/javascript">
+		</script> <!-- Bootstrap core JavaScript -->
+		 
+		<script src="../js/bootstrap.min.js" type="text/javascript">
+		</script> <!-- MDB core JavaScript -->
+		 
+		<script src="../js/mdb.min.js" type="text/javascript">
+		</script>
+		
+		<script type="text/javascript" async
+			src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
+
+		
+		<!-- Animations init-->
+		 
+		<script>
+		      new WOW().init();
+		</script>
+
+		<!-- Open All Close All -->
+		
+		<script>
+			$('.closeall').click(function(){
+		  $('.collapse.show')
+		    .collapse('hide');
+		});
+		$('.openall').click(function(){
+		  $('.collapse:not(".show")')
+		    .collapse('show');
+		});
+		</script>
+		
+	</body>
+</html>

@@ -15,14 +15,6 @@
       "Answer": "<p>Information systems have already eliminated many of the traditional clerical tasks that purchasing professionals had to do.  Orders can be made online, planning and control systems can generate orders automatically and information systems can instantly forward component requirements to suppliers, minimizing the need for purchasing intervention.  It is a good time to join the purchasing profession because companies are becoming more dependent on suppliers. The information systems can automate some tasks, but purchasers are still needed to make initial contact, create substantive relationships, and negotiate terms and agreements with suppliers.</p>",
       "PrePopulated": "none",
       "Placeholder": "Enter your answer here."
-    },
-    {
-      "Title": "Question 3",
-      "Text": "<p>What are the four broad categories of 'causes' to help initially structure an Ishikawa diagram or cause-and-effect diagram?</p>\r\n",
-      "MinCharacters": 25,
-      "Answer": "<p>Ishikawa “causes”: material, machinery/equipment, methods, and manpower.</p>",
-      "PrePopulated": "none",
-      "Placeholder": "Enter your answer here."
     }
   ]
 }
